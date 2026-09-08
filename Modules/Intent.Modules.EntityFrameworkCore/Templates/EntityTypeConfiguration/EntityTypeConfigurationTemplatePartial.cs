@@ -529,7 +529,7 @@ namespace Intent.Modules.EntityFrameworkCore.Templates.EntityTypeConfiguration
                 case RelationshipType.OneToOne:
                     if (IsOwned(associationEnd.Element))
                     {
-                        var field = EfCoreAssociationConfigStatement.CreateOwnsOne(associationEnd, targetType);
+                        var field = EfCoreAssociationConfigStatement.CreateOwnsOne(associationEnd, targetType, this);
 
                         var sourceType = Model.IsSubclassOf(associationEnd.OtherEnd().Class) ? Model.InternalElement : (IElement)associationEnd.OtherEnd().Element;
                         var methodName = $"Configure{associationEnd.Name.ToPascalCase()}";
@@ -554,18 +554,18 @@ namespace Intent.Modules.EntityFrameworkCore.Templates.EntityTypeConfiguration
                         return field;
                     }
 
-                    return EfCoreAssociationConfigStatement.CreateHasOne(associationEnd, targetType)
+                    return EfCoreAssociationConfigStatement.CreateHasOne(associationEnd, targetType, this)
                         .WithForeignKey();
 
                 case RelationshipType.ManyToOne:
-                    return EfCoreAssociationConfigStatement.CreateHasOne(associationEnd, targetType)
+                    return EfCoreAssociationConfigStatement.CreateHasOne(associationEnd, targetType, this)
                         .WithForeignKey();
 
                 case RelationshipType.OneToMany:
                     {
                         if (IsOwned(associationEnd.Element))
                         {
-                            var field = EfCoreAssociationConfigStatement.CreateOwnsMany(associationEnd, targetType);
+                            var field = EfCoreAssociationConfigStatement.CreateOwnsMany(associationEnd, targetType, this);
 
                             var sourceType = Model.IsSubclassOf(associationEnd.OtherEnd().Class) ? Model.InternalElement : (IElement)associationEnd.OtherEnd().Element;
                             var methodName = $"Configure{associationEnd.Name.ToPascalCase()}";
@@ -590,11 +590,11 @@ namespace Intent.Modules.EntityFrameworkCore.Templates.EntityTypeConfiguration
                             return field;
                         }
                     }
-                    return EfCoreAssociationConfigStatement.CreateHasMany(associationEnd, targetType, GetTableNameByConvention)
+                    return EfCoreAssociationConfigStatement.CreateHasMany(associationEnd, targetType, this, GetTableNameByConvention)
                         .WithForeignKey();
 
                 case RelationshipType.ManyToMany:
-                    return EfCoreAssociationConfigStatement.CreateHasMany(associationEnd, targetType, GetTableNameByConvention);
+                    return EfCoreAssociationConfigStatement.CreateHasMany(associationEnd, targetType, this, GetTableNameByConvention);
                 default:
                     throw new Exception($"Relationship type for association [{Model.Name}.{associationEnd.Name}] could not be determined.");
             }

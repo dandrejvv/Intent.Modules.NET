@@ -150,11 +150,14 @@
     <file>
       <correlationId>Intent.ModuleBuilder.CSharp.Templates.CSharpTemplatePartial#aba7dad6-c66b-4476-9470-0ab8786b5b4d</correlationId>
       <path>Templates/EntityTypeConfiguration/EntityTypeConfigurationTemplatePartial.cs</path>
-      <count>4</count>
+      <count>5</count>
       <updatedByAccountName>joel.turner@intentarchitect.com</updatedByAccountName>
       <updatedByDisplayName>Joel Turner</updatedByDisplayName>
-      <updatedAt>2026-05-28T13:37:34.8407089Z</updatedAt>
-      <deviationsHash>6CA987185FA20749CF1CCB36174FBC249527C8D395F3451F5C26C9D55E95CBD5</deviationsHash>
+      <updatedAt>2026-09-08T08:44:13.1157921Z</updatedAt>
+      <approvedByAccountName>joel.turner@intentarchitect.com</approvedByAccountName>
+      <approvedByDisplayName>Joel Turner</approvedByDisplayName>
+      <approvedAt>2026-09-08T08:52:23.3860594Z</approvedAt>
+      <deviationsHash>70C3A95B9E64521F94BE6AA3F3A97E07D34B1D234376AC99F0A243617ABF5516</deviationsHash>
       <fileHash>9E039089D16573DF917F4A844A5C71C4A4D0A85C4B784173F0838DFFC0255389</fileHash>
     </file>
     <file>
@@ -196,6 +199,12 @@
       <approvedByAccountName>dandre.jvv@intentarchitect.com</approvedByAccountName>
       <approvedByDisplayName>Dandre Jansen van Vuuren</approvedByDisplayName>
       <approvedAt>2026-09-01T22:49:43.1373286Z</approvedAt>
+    </customFile>
+    <customFile>
+      <path>Modules/Intent.Modules.EntityFrameworkCore/Templates/EntityTypeConfiguration/EfCoreAssociationConfigStatement.cs</path>
+      <approvedByAccountName>joel.turner@intentarchitect.com</approvedByAccountName>
+      <approvedByDisplayName>Joel Turner</approvedByDisplayName>
+      <approvedAt>2026-09-08T08:52:22.7282111Z</approvedAt>
     </customFile>
   </customFiles>
 </deviationsLog>

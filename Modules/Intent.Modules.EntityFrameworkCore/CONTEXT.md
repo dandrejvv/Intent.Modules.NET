@@ -275,3 +275,30 @@ old overloads, so they need no floor bump and are safe to install/update in any 
 the new settings-aware overloads. Each of these four dependent modules had its
 `Intent.Modules.EntityFrameworkCore` dependency bumped to match and its own version bumped,
 since each has a real generated-output-affecting code change.
+
+## `EfCoreAssociationConfigStatement` — Type Names Come From the Template, Never `.Name`
+
+`EfCoreAssociationConfigStatement` builds the fluent relationship chain for
+`EntityTypeConfigurationTemplate`. Everything in that chain that is a *member* name
+(`x => x.Customer`, `x => x.CustomerId`) is a domain name and correctly comes off the model.
+The one place a chain link is a **type** rather than a member is the one-to-one
+`HasForeignKey<T>(...)` generic argument — and that is a generated C# type reference, so it
+must be resolved through the template (`ICSharpFileBuilderTemplate.GetTypeName(IElement)`),
+not read off `ClassModel.Name`.
+
+Using `.Name` produced `HasForeignKey<Customer>` in every case. That happens to compile in a flat
+domain, which is why it survived so long, but breaks whenever the entity's generated type needs
+qualifying — a folder-per-aggregate namespace (`Domain.Entities.Customer.Customer`), or a name
+that collides with another type already in scope in the configuration file. `GetTypeName` also
+registers the `using`, which the raw name never did.
+
+This is why the statement class takes the template through its constructor and every static
+factory. It exists purely so the class can participate in type resolution; the class is a
+`CSharpStatement`, so it has no other route to the template. **If a new chain link ever needs a
+type name, resolve it through `_template` — do not reach for `.Class.Name`.**
+
+The *choice* of which end supplies the type is a separate concern and unchanged: for a one-to-one
+the FK lives on the dependent, which is `OtherEnd()` when `OtherEnd().IsNullable` and this end
+otherwise — mirroring exactly how `WithForeignKey` picks the end it reads the FK columns from.
+Keep the two in step; they must agree or the generic argument names a type that does not own the
+key.

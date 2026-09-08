@@ -6,6 +6,7 @@ using Intent.Metadata.Models;
 using Intent.Metadata.RDBMS.Api;
 using Intent.Modelers.Domain.Api;
 using Intent.Modules.Common.CSharp.Builder;
+using Intent.Modules.Common.CSharp.Templates;
 using Intent.Modules.Common.Templates;
 using Intent.Utils;
 
@@ -15,15 +16,17 @@ public class EfCoreAssociationConfigStatement : CSharpStatement
 {
     private readonly AssociationEndModel _associationEnd;
     private readonly IElement _targetType;
+    private readonly ICSharpFileBuilderTemplate _template;
 
 	protected IList<CSharpStatement> RelationshipStatements { get; } = new List<CSharpStatement>();
     protected IList<CSharpStatement> AdditionalStatements { get; } = new List<CSharpStatement>();
     public RequiredEntityProperty[] RequiredProperties = Array.Empty<RequiredEntityProperty>();
 
-	private EfCoreAssociationConfigStatement(AssociationEndModel associationEnd, IElement targetType) : base(null)
+	private EfCoreAssociationConfigStatement(AssociationEndModel associationEnd, IElement targetType, ICSharpFileBuilderTemplate template) : base(null)
 	{
 		_associationEnd = associationEnd;
         _targetType = targetType;
+        _template = template;
 		if (associationEnd.Element.Id.Equals(associationEnd.OtherEnd().Element.Id)
 			&& associationEnd.Name.Equals(associationEnd.Element.Name))
 		{
@@ -33,9 +36,9 @@ public class EfCoreAssociationConfigStatement : CSharpStatement
 		AddMetadata("model", associationEnd);
 	}
 
-	public static EfCoreAssociationConfigStatement CreateOwnsOne(AssociationEndModel associationEnd, IElement targetType)
+	public static EfCoreAssociationConfigStatement CreateOwnsOne(AssociationEndModel associationEnd, IElement targetType, ICSharpFileBuilderTemplate template)
     {
-        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType);
+        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType, template);
         statement.RelationshipStatements.Add($"builder.OwnsOne(x => x.{associationEnd.Name.ToPascalCase()}, Configure{associationEnd.Name.ToPascalCase()})");
         if (!associationEnd.TypeReference.IsNullable)
         {
@@ -49,21 +52,21 @@ public class EfCoreAssociationConfigStatement : CSharpStatement
 
 	public EfCoreAssociationConfigStatement CreateWithOwner()
     {
-        var statement = new EfCoreAssociationConfigStatement(_associationEnd, _targetType);
+        var statement = new EfCoreAssociationConfigStatement(_associationEnd, _targetType, _template);
         statement.RelationshipStatements.Add(@$"builder.WithOwner({(_associationEnd.OtherEnd().IsNavigable ? $"x => x.{_associationEnd.OtherEnd().Name.ToPascalCase()}" : "")})");
         return statement;
     }
 
-    public static EfCoreAssociationConfigStatement CreateOwnsMany(AssociationEndModel associationEnd, IElement targetType)
+    public static EfCoreAssociationConfigStatement CreateOwnsMany(AssociationEndModel associationEnd, IElement targetType, ICSharpFileBuilderTemplate template)
     {
-        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType);
+        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType, template);
         statement.RelationshipStatements.Add($"builder.OwnsMany(x => x.{associationEnd.Name.ToPascalCase()}, Configure{associationEnd.Name.ToPascalCase()})");
         return statement;
     }
 
-    public static EfCoreAssociationConfigStatement CreateHasOne(AssociationEndModel associationEnd, IElement targetType)
+    public static EfCoreAssociationConfigStatement CreateHasOne(AssociationEndModel associationEnd, IElement targetType, ICSharpFileBuilderTemplate template)
     {
-        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType);
+        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType, template);
         statement.RelationshipStatements.Add($"builder.HasOne(x => x.{associationEnd.Name.ToPascalCase()})");
 
         if (associationEnd.OtherEnd().IsCollection)
@@ -86,9 +89,9 @@ public class EfCoreAssociationConfigStatement : CSharpStatement
         return statement;
     }
 
-    public static EfCoreAssociationConfigStatement CreateHasMany(AssociationEndModel associationEnd, IElement targetType, Func<string, string> getTableNameByConvention)
+    public static EfCoreAssociationConfigStatement CreateHasMany(AssociationEndModel associationEnd, IElement targetType, ICSharpFileBuilderTemplate template, Func<string, string> getTableNameByConvention)
     {
-        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType);
+        var statement = new EfCoreAssociationConfigStatement(associationEnd, targetType, template);
         statement.RelationshipStatements.Add($"builder.HasMany(x => x.{associationEnd.Name.ToPascalCase()})");
         if (associationEnd.OtherEnd().IsCollection)
         {
@@ -196,9 +199,10 @@ public class EfCoreAssociationConfigStatement : CSharpStatement
         if (!RelationshipStatements.First().GetText(string.Empty).StartsWith("builder.WithOwner") &&
             _associationEnd.Association.GetRelationshipType() == RelationshipType.OneToOne)
         {
-            genericTypeArgument = _associationEnd.OtherEnd().IsNullable
-				? _associationEnd.OtherEnd().Class.Name
-				: _associationEnd.Class.Name;
+            var dependentEnd = _associationEnd.OtherEnd().IsNullable
+                ? _associationEnd.OtherEnd()
+                : _associationEnd;
+            genericTypeArgument = _template.GetTypeName((IElement)dependentEnd.Element);
 
             CheckForUnsupportTPCRelationships(_associationEnd);
 		}

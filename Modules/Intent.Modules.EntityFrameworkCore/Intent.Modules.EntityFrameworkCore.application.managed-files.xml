@@ -31,7 +31,7 @@
   <file path="Templates/DbMigrationsReadMe/DbMigrationsReadMeTemplate.cs" deviationsHash="6D416E87E7E265FC6D7C11BD9B5833A75AFE3F15E316315E687B77B572DEE63E" templateId="Intent.ModuleBuilder.Templates.FileTemplateStringInterpolation" />
   <file path="Templates/DbMigrationsReadMe/DbMigrationsReadMeTemplatePartial.cs" deviationsHash="0A231C2890C50F2C301427C454F6699516FF286FA8F03AA8B17E6D54F5CBEAA5" templateId="Intent.ModuleBuilder.ProjectItemTemplate.Partial" />
   <file path="Templates/DbMigrationsReadMe/DbMigrationsReadMeTemplateRegistration.cs" templateId="Intent.ModuleBuilder.TemplateRegistration.SingleFileNoModel" />
-  <file path="Templates/EntityTypeConfiguration/EntityTypeConfigurationTemplatePartial.cs" deviationsHash="6CA987185FA20749CF1CCB36174FBC249527C8D395F3451F5C26C9D55E95CBD5" templateId="Intent.ModuleBuilder.CSharp.Templates.CSharpTemplatePartial" />
+  <file path="Templates/EntityTypeConfiguration/EntityTypeConfigurationTemplatePartial.cs" deviationsHash="70C3A95B9E64521F94BE6AA3F3A97E07D34B1D234376AC99F0A243617ABF5516" templateId="Intent.ModuleBuilder.CSharp.Templates.CSharpTemplatePartial" />
   <file path="Templates/EntityTypeConfiguration/EntityTypeConfigurationTemplateRegistration.cs" deviationsHash="95F024BBB9B93CC06F17BC55CA2B849AF9EDD9596525892D00915BACFA8C917B" templateId="Intent.ModuleBuilder.TemplateRegistration.FilePerModel" />
   <file path="Templates/PagedList/PagedListTemplatePartial.cs" deviationsHash="6C8A26F94484E9C86F84432B7B5C92BD0987E0C49426ECCC11362BC634D55254" templateId="Intent.ModuleBuilder.CSharp.Templates.CSharpTemplatePartial" />
   <file path="Templates/PagedList/PagedListTemplateRegistration.cs" templateId="Intent.ModuleBuilder.TemplateRegistration.Custom" />
