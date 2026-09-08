@@ -1,552 +1,552 @@
 <?xml version="1.0" encoding="utf-8"?>
 <managedFiles version="1" applicationId="a0f944aa-6954-42a5-9b76-df879ecdc886">
-  <file path=".agents/instructions/csharp-guidelines.md" />
-  <file path=".agents/skills/application-service-implementation/SKILL.md" />
-  <file path=".agents/skills/domain-entity/SKILL.md" />
-  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" />
-  <file path=".agents/skills/integration-test/SKILL.md" />
-  <file path=".agents/skills/mediatr-command-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-query-handler/SKILL.md" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/AdvancedMappingCrud.Cosmos.Tests.Api.csproj" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApiVersioningConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/HealthChecksConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/QuartzConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/SwashbuckleConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/BasicOrderBiesController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ConcurrencyController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/CustomersController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ExplicitETagsController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ManyToMany/ProductItemController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ManyToManyController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/OrdersController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ParentsController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ProductsController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/SimpleOdataController.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/ExceptionFilter.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/ODataQueryFilter.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/TypeSchemaFilter.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Jobs/CommandDelegateJob.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Jobs/NewScheduledJob.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Program.Partial.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Program.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Properties/launchSettings.json" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Services/CurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/appsettings.json" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/AdvancedMappingCrud.Cosmos.Tests.Application.csproj" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/BasicOrderByDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/BasicOrderByDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICurrentUser.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IDomainEventService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Mappings/IMapFrom.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Mappings/MappingProfile.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Models/DomainEventNotification.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Models/Result.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Pagination/PagedResult.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Security/AuthorizeAttribute.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/IValidationService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/IValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/ValidationService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/ValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTest.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTestHandler.cs" deviationsHash="DCB4B38D8F27B5D868FF84A861A026450DDDD09EBA831901E3BA5EDD93DC4830" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTestValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerAddressDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerAddressDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQueryHandler.cs" deviationsHash="1DD2CD11E96187A184504D8FA0B044C86385F5A62521D7168F6FD0096D1DD89C" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQueryHandler.cs" deviationsHash="2429753ACAB5FEE88524A43A969D22EC08D602C070BD3D9BF489E1992CD7DD70" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryHandler.cs" deviationsHash="3BB3D5EBFE7D7F38CDD776D9AE6F47BAB1A64336AFDDD8431D64C02D2015CB73" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParentEmbeddedChildDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParentEmbeddedChildDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedEmbeddedParentEmbeddedChildDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedEmbeddedParentEmbeddedChildDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedParentDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedParentDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParentEmbeddedChildDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParentEmbeddedChildDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/ExplicitETagDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/ExplicitETagDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Implementation/ManyToMany/ProductItemService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Interfaces/ManyToMany/IProductItemService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItemDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItemDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderItemsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderItemsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderTagsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderItemDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderTagsDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderCommandOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderCommandOrderTagsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandChildrenDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandChildrenDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsTagsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentSubDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentSubDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/ParentDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/ParentDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandChildrenDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandChildrenDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsTagsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentSubDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentSubDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/ProductDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/ProductDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/SimpleOdataDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/SimpleOdataDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Address.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/AdvancedMappingCrud.Cosmos.Tests.Domain.csproj" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/CollectionExtensions.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/DomainEvent.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Exceptions/NotFoundException.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/IHasDomainEvent.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Interfaces/ICosmosDBUnitOfWork.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/UpdateHelper.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/EmbeddedChild.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/BasicOrderBy.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Child.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Customer.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/EmbeddedParent.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ExplicitETag.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/Category.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/ProductItem.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/Tag.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Order.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/OrderItem.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Parent.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentDetails.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentDetailsTags.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentSubDetails.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Product.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/SimpleChild.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/SimpleOdata.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Stock.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/StockDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/OrderStatus.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/OrderTags.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IAddressDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IBasicOrderByDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ICustomerDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IEmbeddedChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IEmbeddedParentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IExplicitETagDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderItemDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderTagsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDetailsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDetailsTagsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentSubDetailsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IProductDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ISimpleChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ISimpleOdataDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IStockDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IStockDocumentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/ICategoryDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/IProductItemDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/ITagDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IBasicOrderByRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICustomRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICustomerRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IEmbeddedParentRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IExplicitETagRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IOrderRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IPagedList.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IParentRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IProductRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ISimpleOdataRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IStockDocumentRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IStockRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/ICategoryRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/IProductItemRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/ITagRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/ValueObject.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/AdvancedMappingCrud.Cosmos.Tests.Infrastructure.csproj" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/CosmosDBUnitOfWork.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/AddressDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/BasicOrderByDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/CustomerDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/EmbeddedChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/EmbeddedParentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ExplicitETagDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ICosmosDBDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/CategoryDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/ProductItemDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/TagDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderItemDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderTagsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDetailsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDetailsTagsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentSubDetailsDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ProductDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ReflectionHelper.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/SimpleChildDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/SimpleOdataDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/StockDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/StockDocumentDocument.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/TypeExtensionMethods.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/BasicOrderByCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CosmosDBRepositoryBase.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CosmosPagedList.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CustomRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CustomerCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/EmbeddedParentCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ExplicitETagCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/CategoryCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/ProductItemCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/TagCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/OrderCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ParentCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ProductCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/SimpleOdataCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/StockCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/StockDocumentCosmosDBRepository.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Services/DomainEventService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/AdvancedMappingCrud.Cosmos.Tests.IntegrationTests.csproj" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/BaseIntegrationTest.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/ContainerCosmosClientProvider.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/CosmosContainerFixture.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/GlobalUsings.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/BasicOrderBies/BasicOrderBiesHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/BasicOrderBies/IBasicOrderBiesService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Concurrency/ConcurrencyHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Concurrency/IConcurrencyService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Customers/CustomersHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Customers/ICustomersService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ExplicitETags/ExplicitETagsHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ExplicitETags/IExplicitETagsService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/HttpClientRequestException.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/JsonResponse.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/IManyToManyService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/IProductItemService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/ManyToManyHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/ProductItemServiceHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Orders/IOrdersService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Orders/OrdersHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Parents/IParentsService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Parents/ParentsHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ProblemDetailsWithErrors.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Products/IProductsService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Products/ProductsHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/SimpleOdata/ISimpleOdataService.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/SimpleOdata/SimpleOdataHttpClient.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/IntegrationTestWebAppFactory.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/OrderStatus.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/PopulateIdsSpecimenBuilder.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/BasicOrderByDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/CreateBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/DeleteBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/GetBasicOrderByByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/GetBasicOrderByQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/UpdateBasicOrderByCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CreateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CustomerAddressDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CustomerDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/DeleteCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/FindCustomerByNameOrSurnameQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/FindCustomerByNameQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomerByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersLinqQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersPagedFilteredQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersPagedQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/UpdateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/CreateExplicitETagCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/ExplicitETagDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/GetExplicitETagByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/UpdateExplicitETagCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/CreateProductItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/CreateProductItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/UpdateProductItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/UpdateProductItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommandOrderItemsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommandOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/DeleteOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/DeleteOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderOrderItemByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderOrderItemsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrdersQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderOrderItemDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderCommandOrderTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderOrderItemCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/PagedResult.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandChildrenDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentDetailsTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentSubDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/DeleteParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/GetParentByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/GetParentsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/ParentDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandChildrenDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentDetailsTagsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentSubDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/CreateProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/DeleteProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/GetProductByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/GetProductsQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/ProductDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/UpdateProductCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/CreateSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/DeleteSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/GetSimpleOdataByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/GetSimpleOdataQuery.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/SimpleOdataDto.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/UpdateSimpleOdataCommand.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/SharedContainerFixture.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/TestDataFactory.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/CreateBasicOrderByTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/DeleteBasicOrderByTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/GetBasicOrderByByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/GetBasicOrderByTests.cs" deviationsHash="234FF2F1625108739CC88D2DAD933CAAA3E4B9D22BFCF55ABA2E0D7367B6D933" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/UpdateBasicOrderByTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTestTests.cs" deviationsHash="F739E4FCA29BC5E235BA80FE3240A8F8109AD4003374F1084E572790C340E3FC" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/CreateCustomerTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/DeleteCustomerTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/FindCustomerByNameOrSurnameTests.cs" deviationsHash="29E9F2CE0436A1FB5BE20C54360E043048E9DCD2C657B67CC05D8D581152493A" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/FindCustomerByNameTests.cs" deviationsHash="988B8DD94523B7E14EAB42BEF7E28E9A0968CFB7205685922A72B4337B151085" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomerByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersLinqTests.cs" deviationsHash="B7D1BEDE4FC9F98720292E14AA38B886AC9E18B4D21E6DA837830792494595E1" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersPagedFilteredTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersPagedTests.cs" deviationsHash="9B43C30A95B0CDF9F632A33A6FA1B4DE9AFB301BFD5064D13F755578727BAAC0" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/UpdateCustomerTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/CreateExplicitETagTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/GetExplicitETagByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/UpdateExplicitETagTests.cs" deviationsHash="372648361FB79DB20A7ED2F3F5381D98A00CEE608495AE334F2C86DAB0CBF70B" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ManyToMany/CreateProductItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ManyToMany/UpdateProductItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/CreateOrderOrderItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/CreateOrderTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/DeleteOrderOrderItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/DeleteOrderTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderOrderItemByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderOrderItemsTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrdersTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/UpdateOrderOrderItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/UpdateOrderTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/CreateParentTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/DeleteParentTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/GetParentByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/GetParentsTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/UpdateParentTests.cs" deviationsHash="535B20C44F8D5188DBC3EBF8A29D03519F77B574B4329BE2C120F0D0101255F5" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ProductItemService/CreateProductItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ProductItemService/UpdateProductItemTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/CreateProductTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/DeleteProductTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/GetProductByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/GetProductsTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/UpdateProductTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/CreateSimpleOdataTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/DeleteSimpleOdataTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/GetSimpleOdataByIdTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/GetSimpleOdataTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/UpdateSimpleOdataTests.cs" />
-  <file path="AdvancedMappingCrud.Cosmos.Tests.sln" />
+  <file path=".agents/instructions/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
+  <file path=".agents/skills/application-service-implementation/SKILL.md" templateId="Intent.Application.ServiceImplementations.ServiceImplementationSkillTemplate" />
+  <file path=".agents/skills/domain-entity/SKILL.md" templateId="Intent.Entities.DomainEntitySkill" />
+  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" templateId="Intent.Application.FluentValidation.CustomValidationSkillTemplate" />
+  <file path=".agents/skills/integration-test/SKILL.md" templateId="Intent.AspNetCore.IntegrationTesting.IntegrationTestSkillTemplate" />
+  <file path=".agents/skills/mediatr-command-handler/SKILL.md" templateId="Intent.Application.MediatR.CommandHandlerSkillTemplate" />
+  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" templateId="Intent.MediatR.DomainEvents.DomainEventHandlerSkill" />
+  <file path=".agents/skills/mediatr-query-handler/SKILL.md" templateId="Intent.Application.MediatR.QueryHandlerSkillTemplate" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/AdvancedMappingCrud.Cosmos.Tests.Api.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" templateId="Intent.AspNetCore.Versioning.ApiVersionSwaggerGenOptions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApiVersioningConfiguration.cs" templateId="Intent.AspNetCore.Versioning.ApiVersioningConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" templateId="Intent.Application.Identity.ApplicationSecurityConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/HealthChecksConfiguration.cs" templateId="Intent.AspNetCore.HealthChecks.HealthChecksConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" templateId="Intent.AspNetCore.ProblemDetailsConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/QuartzConfiguration.cs" templateId="Intent.QuartzScheduler.QuartzConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Configuration/SwashbuckleConfiguration.cs" templateId="Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/BasicOrderBiesController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ConcurrencyController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/CustomersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ExplicitETagsController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ManyToMany/ProductItemController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ManyToManyController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/OrdersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ParentsController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ProductsController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" templateId="Intent.AspNetCore.Controllers.JsonResponse" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Controllers/SimpleOdataController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/ExceptionFilter.cs" templateId="Intent.AspNetCore.Controllers.ExceptionFilter" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.HideRouteParametersFromBodyOperationFilter" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/ODataQueryFilter.cs" templateId="Intent.AspNetCore.ODataQuery.ODataQuerySwaggerFilter" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Filters/TypeSchemaFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.TypeSchemaFilter" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Jobs/CommandDelegateJob.cs" templateId="Intent.QuartzScheduler.ScheduledJob" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Jobs/NewScheduledJob.cs" templateId="Intent.QuartzScheduler.ScheduledJob" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" templateId="Intent.Modules.AspNetCore.Logging.Serilog.BoundedLoggingDestructuringPolicyTemplate" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Program.Partial.cs" templateId="Intent.AspNetCore.ProgramPartial" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Program.cs" templateId="Intent.AspNetCore.Program" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Properties/launchSettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.LaunchSettings" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/Services/CurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserService" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Api/appsettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.AppSettings-Default" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/AdvancedMappingCrud.Cosmos.Tests.Application.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/BasicOrderByDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/BasicOrderByDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/CreateBasicOrderBy/CreateBasicOrderByCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/DeleteBasicOrderBy/DeleteBasicOrderByCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderBy/GetBasicOrderByQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/GetBasicOrderByById/GetBasicOrderByByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/BasicOrderBies/UpdateBasicOrderBy/UpdateBasicOrderByCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.AuthorizationBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.LoggingBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.PerformanceBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" templateId="Intent.Application.MediatR.FluentValidation.ValidationBehaviour" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" templateId="Intent.Application.Identity.ForbiddenAccessException" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" templateId="Intent.Application.MediatR.FluentValidation.BypassPipelineValidationInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICommand.cs" templateId="Intent.Application.MediatR.CommandInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICurrentUser.cs" templateId="Intent.Application.Identity.CurrentUserInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/ICurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserServiceInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IDomainEventService.cs" templateId="Intent.DomainEvents.DomainEventServiceInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Interfaces/IQuery.cs" templateId="Intent.Application.MediatR.QueryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Mappings/IMapFrom.cs" templateId="Intent.Application.AutoMapper.MapFromInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Mappings/MappingProfile.cs" templateId="Intent.Application.AutoMapper.MappingProfile" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Models/DomainEventNotification.cs" templateId="Intent.MediatR.DomainEvents.DomainEventNotification" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Models/Result.cs" templateId="Intent.Application.Identity.ResultModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Pagination/PagedResult.cs" templateId="Intent.Application.Dtos.Pagination.PagedResult" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" templateId="Intent.Application.Dtos.Pagination.PagedResultMappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Security/AuthorizeAttribute.cs" templateId="Intent.Application.Identity.AuthorizeAttribute" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/IValidationService.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidationServiceInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/IValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProviderInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/ValidationService.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidationService" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Common/Validation/ValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProvider" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTest.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTestHandler.cs" deviationsHash="DCB4B38D8F27B5D868FF84A861A026450DDDD09EBA831901E3BA5EDD93DC4830" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest/UpdateEntityAfterEtagWasChangedByPreviousOperationTestValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerAddressDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerAddressDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByName/FindCustomerByNameQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQueryHandler.cs" deviationsHash="1DD2CD11E96187A184504D8FA0B044C86385F5A62521D7168F6FD0096D1DD89C" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/FindCustomerByNameOrSurname/FindCustomerByNameOrSurnameQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQueryHandler.cs" deviationsHash="2429753ACAB5FEE88524A43A969D22EC08D602C070BD3D9BF489E1992CD7DD70" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersLinq/GetCustomersLinqQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryHandler.cs" deviationsHash="3BB3D5EBFE7D7F38CDD776D9AE6F47BAB1A64336AFDDD8431D64C02D2015CB73" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/GetCustomersPagedFiltered/GetCustomersPagedFilteredQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/DependencyInjection.cs" templateId="Intent.Application.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParent/CreateEmbeddedParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParentEmbeddedChildDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/CreateEmbeddedParentEmbeddedChildDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/DeleteEmbeddedParent/DeleteEmbeddedParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedEmbeddedParentEmbeddedChildDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedEmbeddedParentEmbeddedChildDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedParentDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/EmbeddedParentDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParentById/GetEmbeddedParentByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/GetEmbeddedParents/GetEmbeddedParentsQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParent/UpdateEmbeddedParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParentEmbeddedChildDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/EmbeddedParents/UpdateEmbeddedParentEmbeddedChildDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/CreateExplicitETag/CreateExplicitETagCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/ExplicitETagDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/ExplicitETagDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/GetExplicitETagById/GetExplicitETagByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ExplicitETags/UpdateExplicitETag/UpdateExplicitETagCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Implementation/ManyToMany/ProductItemService.cs" templateId="Intent.Application.ServiceImplementations.ServiceImplementation" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Interfaces/ManyToMany/IProductItemService.cs" templateId="Intent.Application.Contracts.ServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Jobs/MyTimedJob/MyTimedJobCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItem/CreateProductItemCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItemDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/CreateProductItemDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItem/UpdateProductItemCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItemDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/ManyToMany/UpdateProductItemDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrder/CreateOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderItemsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderItemsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderTagsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderCommandOrderTagsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/CreateOrderOrderItem/CreateOrderOrderItemCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/DeleteOrderOrderItem/DeleteOrderOrderItemCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItemById/GetOrderOrderItemByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrderOrderItems/GetOrderOrderItemsQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/GetOrders/GetOrdersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderItemDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderItemDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderTagsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/OrderOrderTagsDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrder/UpdateOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderCommandOrderTagsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderCommandOrderTagsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Orders/UpdateOrderOrderItem/UpdateOrderOrderItemCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParent/CreateParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandChildrenDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandChildrenDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsTagsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentDetailsTagsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentSubDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/CreateParentCommandParentSubDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/DeleteParent/DeleteParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParentById/GetParentByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/GetParents/GetParentsQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/ParentDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/ParentDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParent/UpdateParentCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandChildrenDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandChildrenDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsTagsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentDetailsTagsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentSubDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Parents/UpdateParentCommandParentSubDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/CreateProduct/CreateProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/DeleteProduct/DeleteProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProductById/GetProductByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/GetProducts/GetProductsQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/ProductDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/ProductDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/Products/UpdateProduct/UpdateProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/CreateSimpleOdata/CreateSimpleOdataCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/DeleteSimpleOdata/DeleteSimpleOdataCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdata/GetSimpleOdataQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/GetSimpleOdataById/GetSimpleOdataByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/SimpleOdataDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/SimpleOdataDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Application/SimpleOdata/UpdateSimpleOdata/UpdateSimpleOdataCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Address.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/AdvancedMappingCrud.Cosmos.Tests.Domain.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/CollectionExtensions.cs" templateId="Intent.Entities.CollectionExtensions" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/DomainEvent.cs" templateId="Intent.DomainEvents.DomainEventBase" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Exceptions/NotFoundException.cs" templateId="Intent.Entities.NotFoundException" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/IHasDomainEvent.cs" templateId="Intent.DomainEvents.HasDomainEventInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Interfaces/ICosmosDBUnitOfWork.cs" templateId="Intent.CosmosDB.CosmosDBUnitOfWorkInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" templateId="Intent.Entities.Repositories.Api.UnitOfWorkInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Common/UpdateHelper.cs" templateId="Intent.Entities.UpdateHelper" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/EmbeddedChild.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/BasicOrderBy.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Child.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Customer.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/EmbeddedParent.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ExplicitETag.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/Category.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/ProductItem.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ManyToMany/Tag.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Order.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/OrderItem.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Parent.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentDetails.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentDetailsTags.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/ParentSubDetails.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Product.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/SimpleChild.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/SimpleOdata.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/Stock.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Entities/StockDocument.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/OrderStatus.cs" templateId="Intent.Entities.DomainEnum" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/OrderTags.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IAddressDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IBasicOrderByDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ICustomerDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IEmbeddedChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IEmbeddedParentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IExplicitETagDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderItemDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IOrderTagsDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDetailsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDetailsTagsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IParentSubDetailsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IProductDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ISimpleChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ISimpleOdataDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IStockDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/IStockDocumentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/ICategoryDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/IProductItemDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/Documents/ManyToMany/ITagDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IBasicOrderByRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICustomRepository.cs" templateId="Intent.Entities.Repositories.Api.CustomRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ICustomerRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IEmbeddedParentRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IExplicitETagRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IOrderRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IPagedList.cs" templateId="Intent.Entities.Repositories.Api.PagedListInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IParentRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IProductRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IRepository.cs" templateId="Intent.Entities.Repositories.Api.RepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ISimpleOdataRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IStockDocumentRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/IStockRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/ICategoryRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/IProductItemRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/Repositories/ManyToMany/ITagRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Domain/ValueObject.cs" templateId="Intent.ValueObjects.ValueObjectBase" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/AdvancedMappingCrud.Cosmos.Tests.Infrastructure.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/DependencyInjection.cs" templateId="Intent.Infrastructure.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/CosmosDBUnitOfWork.cs" templateId="Intent.CosmosDB.CosmosDBUnitOfWork" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/AddressDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/BasicOrderByDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/CustomerDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/EmbeddedChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/EmbeddedParentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ExplicitETagDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ICosmosDBDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocumentOfTInterface" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/CategoryDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/ProductItemDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ManyToMany/TagDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderItemDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/OrderTagsDocument.cs" templateId="Intent.CosmosDB.CosmosDBValueObjectDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDetailsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDetailsTagsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ParentSubDetailsDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ProductDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/ReflectionHelper.cs" templateId="Intent.CosmosDB.ReflectionHelper" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/SimpleChildDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/SimpleOdataDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/StockDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/StockDocumentDocument.cs" templateId="Intent.CosmosDB.CosmosDBDocument" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Persistence/Documents/TypeExtensionMethods.cs" templateId="Intent.CosmosDB.CosmosDBDocumentTypeExtensionMethods" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/BasicOrderByCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CosmosDBRepositoryBase.cs" templateId="Intent.CosmosDB.CosmosDBRepositoryBase" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CosmosPagedList.cs" templateId="Intent.CosmosDB.CosmosPagedList" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CustomRepository.cs" templateId="Intent.Entities.Repositories.Api.CustomRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/CustomerCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/EmbeddedParentCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ExplicitETagCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/CategoryCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/ProductItemCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ManyToMany/TagCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/OrderCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ParentCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/ProductCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/SimpleOdataCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/StockCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Repositories/StockDocumentCosmosDBRepository.cs" templateId="Intent.CosmosDB.CosmosDBRepository" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.Infrastructure/Services/DomainEventService.cs" templateId="Intent.MediatR.DomainEvents.DomainEventService" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/AdvancedMappingCrud.Cosmos.Tests.IntegrationTests.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/BaseIntegrationTest.cs" templateId="Intent.AspNetCore.IntegrationTesting.BaseIntegrationTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/ContainerCosmosClientProvider.cs" templateId="Intent.AspNetCore.IntegrationTesting.ContainerCosmosClientProvider" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/CosmosContainerFixture.cs" templateId="Intent.AspNetCore.IntegrationTesting.CosmosContainerFixture" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/GlobalUsings.cs" templateId="Intent.Modules.AspNetCore.IntegrationTesting.Templates.StaticContentTemplateRegistrations.StaticFilesStaticContentTemplateRegistration" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/BasicOrderBies/BasicOrderBiesHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/BasicOrderBies/IBasicOrderBiesService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Concurrency/ConcurrencyHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Concurrency/IConcurrencyService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Customers/CustomersHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Customers/ICustomersService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ExplicitETags/ExplicitETagsHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ExplicitETags/IExplicitETagsService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/HttpClientRequestException.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClientRequestException" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/JsonResponse.cs" templateId="Intent.AspNetCore.IntegrationTesting.JsonResponse" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/IManyToManyService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/IProductItemService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/ManyToManyHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ManyToMany/ProductItemServiceHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Orders/IOrdersService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Orders/OrdersHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Parents/IParentsService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Parents/ParentsHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/ProblemDetailsWithErrors.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProblemDetailsWithErrors" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Products/IProductsService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/Products/ProductsHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/SimpleOdata/ISimpleOdataService.cs" templateId="Intent.AspNetCore.IntegrationTesting.ProxyServiceContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/HttpClients/SimpleOdata/SimpleOdataHttpClient.cs" templateId="Intent.AspNetCore.IntegrationTesting.HttpClient" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/IntegrationTestWebAppFactory.cs" templateId="Intent.AspNetCore.IntegrationTesting.IntegrationTestWebAppFactory" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/OrderStatus.cs" templateId="Intent.AspNetCore.IntegrationTesting.EnumContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/PopulateIdsSpecimenBuilder.cs" templateId="Intent.AspNetCore.IntegrationTests.CRUD.PopulateIdsSpecimenBuilder" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/BasicOrderByDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/CreateBasicOrderByCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/DeleteBasicOrderByCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/GetBasicOrderByByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/GetBasicOrderByQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/BasicOrderBies/UpdateBasicOrderByCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTest.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CreateCustomerCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CustomerAddressDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/CustomerDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/DeleteCustomerCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/FindCustomerByNameOrSurnameQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/FindCustomerByNameQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomerByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersLinqQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersPagedFilteredQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersPagedQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/GetCustomersQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Customers/UpdateCustomerCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/CreateExplicitETagCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/ExplicitETagDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/GetExplicitETagByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ExplicitETags/UpdateExplicitETagCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/CreateProductItemCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/CreateProductItemDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/UpdateProductItemCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/ManyToMany/UpdateProductItemDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommandOrderItemsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderCommandOrderTagsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/CreateOrderOrderItemCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/DeleteOrderCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/DeleteOrderOrderItemCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderOrderItemByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrderOrderItemsQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/GetOrdersQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderOrderItemDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/OrderOrderTagsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderCommandOrderTagsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Orders/UpdateOrderOrderItemCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/PagedResult.cs" templateId="Intent.AspNetCore.IntegrationTesting.PagedResult" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandChildrenDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentDetailsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentDetailsTagsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/CreateParentCommandParentSubDetailsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/DeleteParentCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/GetParentByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/GetParentsQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/ParentDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandChildrenDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentDetailsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentDetailsTagsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Parents/UpdateParentCommandParentSubDetailsDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/CreateProductCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/DeleteProductCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/GetProductByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/GetProductsQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/ProductDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/Products/UpdateProductCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/CreateSimpleOdataCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/DeleteSimpleOdataCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/GetSimpleOdataByIdQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/GetSimpleOdataQuery.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/SimpleOdataDto.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Services/SimpleOdata/UpdateSimpleOdataCommand.cs" templateId="Intent.AspNetCore.IntegrationTesting.DtoContract" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/SharedContainerFixture.cs" templateId="Intent.AspNetCore.IntegrationTesting.SharedContainerFixture" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/TestDataFactory.cs" templateId="Intent.AspNetCore.IntegrationTests.CRUD.TestDataFactory" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/CreateBasicOrderByTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/DeleteBasicOrderByTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/GetBasicOrderByByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/GetBasicOrderByTests.cs" deviationsHash="234FF2F1625108739CC88D2DAD933CAAA3E4B9D22BFCF55ABA2E0D7367B6D933" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/BasicOrderBies/UpdateBasicOrderByTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Concurrency/UpdateEntityAfterEtagWasChangedByPreviousOperationTestTests.cs" deviationsHash="F739E4FCA29BC5E235BA80FE3240A8F8109AD4003374F1084E572790C340E3FC" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/CreateCustomerTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/DeleteCustomerTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/FindCustomerByNameOrSurnameTests.cs" deviationsHash="29E9F2CE0436A1FB5BE20C54360E043048E9DCD2C657B67CC05D8D581152493A" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/FindCustomerByNameTests.cs" deviationsHash="988B8DD94523B7E14EAB42BEF7E28E9A0968CFB7205685922A72B4337B151085" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomerByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersLinqTests.cs" deviationsHash="B7D1BEDE4FC9F98720292E14AA38B886AC9E18B4D21E6DA837830792494595E1" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersPagedFilteredTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersPagedTests.cs" deviationsHash="9B43C30A95B0CDF9F632A33A6FA1B4DE9AFB301BFD5064D13F755578727BAAC0" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/GetCustomersTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Customers/UpdateCustomerTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/CreateExplicitETagTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/GetExplicitETagByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ExplicitETags/UpdateExplicitETagTests.cs" deviationsHash="372648361FB79DB20A7ED2F3F5381D98A00CEE608495AE334F2C86DAB0CBF70B" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ManyToMany/CreateProductItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ManyToMany/UpdateProductItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/CreateOrderOrderItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/CreateOrderTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/DeleteOrderOrderItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/DeleteOrderTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderOrderItemByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrderOrderItemsTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/GetOrdersTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/UpdateOrderOrderItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Orders/UpdateOrderTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/CreateParentTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/DeleteParentTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/GetParentByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/GetParentsTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Parents/UpdateParentTests.cs" deviationsHash="535B20C44F8D5188DBC3EBF8A29D03519F77B574B4329BE2C120F0D0101255F5" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ProductItemService/CreateProductItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/ProductItemService/UpdateProductItemTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/CreateProductTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/DeleteProductTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/GetProductByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/GetProductsTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/Products/UpdateProductTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/CreateSimpleOdataTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/DeleteSimpleOdataTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/GetSimpleOdataByIdTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/GetSimpleOdataTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.IntegrationTests/Tests/SimpleOdata/UpdateSimpleOdataTests.cs" templateId="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" />
+  <file path="AdvancedMappingCrud.Cosmos.Tests.sln" templateId="Intent.VisualStudio.Projects.VisualStudioSolution" />
 </managedFiles>

@@ -1,417 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
 <managedFiles version="1" applicationId="91975b7f-f3f4-44bd-8ace-27eadcebc3cc">
-  <file path=".agents/instructions/csharp-guidelines.md" />
-  <file path=".agents/skills/application-service-implementation/SKILL.md" />
-  <file path=".agents/skills/domain-entity/SKILL.md" />
-  <file path=".agents/skills/domain-services/SKILL.md" />
-  <file path=".agents/skills/ef-repository/SKILL.md" />
-  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" />
-  <file path=".agents/skills/mediatr-command-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-query-handler/SKILL.md" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/AdvancedMappingCrud.RichDomain.Tests.Api.csproj" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApiVersioningConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/HealthChecksConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/SwashbuckleConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/CompaniesController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/CustomersController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/HierarchyController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/OrdersController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/PeopleController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/ProductsController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/UsersController.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/ExceptionFilter.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/TypeSchemaFilter.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Program.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Properties/launchSettings.json" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Services/CurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Startup.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/appsettings.json" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/AdvancedMappingCrud.RichDomain.Tests.Application.csproj" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICurrentUser.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IDomainEventService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Mappings/IMapFrom.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Mappings/MappingProfile.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Models/DomainEventNotification.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Models/Result.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedList.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedResult.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Security/AuthorizeAttribute.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/IValidationService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/IValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/ValidationService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/ValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CompanyDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CompanyDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompanyContactDetailsVODto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompanyContactDetailsVODtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserAddressesDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserAddressesDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserContactDetailsVODto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserContactDetailsVODtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CustomerDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/OnAddressCreatedHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockBaseEventHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockCreatedEventHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockLevelUpdatedEventHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/Stocks/StockCreatedEventHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Aunt5.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Aunt5Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1MappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2MappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child3.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child3Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child4.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child4Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5MappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1Command.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1CommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1CommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2Command.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2CommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2CommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3Command.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3CommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3CommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4Command.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4CommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4CommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5Command.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5CommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5CommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent3.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent3Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent4.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent4Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent5.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent5Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent4.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent4Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent5.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent5Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent1.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent1Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent2.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent3.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent3Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent4.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent4Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent5.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent5Validator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderOrderItemDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/OrderDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/OrderDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemUpdateDCDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsNameDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsNameDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsNameDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsNameDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsNameDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsNameDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ProductDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ProductDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/BaseStockDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/BaseStockDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/TimeDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/SuperDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/SuperDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddAddressDCDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddAddressDCDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddContactDetailsVODto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddContactDetailsVODtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserAddressDCDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserAddressDCDtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserContactDetailsVODto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserContactDetailsVODtoValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQuery.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestAddressDCDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestAddressDCDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestCompanyDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestCompanyDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestContactDetailsVODto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestContactDetailsVODtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommand.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserUserAddressDto.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserUserAddressDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/AddressType.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/AdvancedMappingCrud.RichDomain.Tests.Domain.csproj" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/CollectionExtensions.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/DomainEvent.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/Exceptions/NotFoundException.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/IHasDomainEvent.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/UpdateHelper.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/ContactDetailsVO.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/AddressDC.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/ColumnDC.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/OrderItemUpdateDC.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Address.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/AddressDetails.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/BaseClass.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Category.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/ChildParentExcluded.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/ChildSimple.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Company.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/CustomConstructor.cs" deviationsHash="927954DC256C16AE74637C72BFF187041C4F34AA14D1BDA4523541FC68A996A8" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Customer.cs" deviationsHash="09317AD7309D4BA68F3A8ECF268265AF99D679A9CE65A8651BBF3F3B4FD1A0C4" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilyComplex.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilyComplexSkipped.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilySimple.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Order.cs" deviationsHash="7562359D56F05FAE6030FC92E9A71D5523822D242BD2C94EE9EE8F0142B5587E" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/OrderItem.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Person.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Product.cs" deviationsHash="F7E3C933EBE6B40FB86B548B2D40D95103BC0078BA89BC5E0F556E9BE0E4CAE4" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/SpecializedProduct.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Stock.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Super.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/User.cs" deviationsHash="B664926205CFCB12AC3945E4DFA74CD7F53343876FFBFF17F068521310CB3CA9" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/OnAddressCreated.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockBaseEvent.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockCreatedEvent.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockLevelUpdatedEvent.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Names.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/PersonDetails.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICategoryRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IChildParentExcludedRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IChildSimpleRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICompanyRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICustomConstructorRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICustomerRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IEFRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilyComplexRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilyComplexSkippedRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilySimpleRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IOrderRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IPagedList.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IPersonRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IProductRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ISpecializedProductRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IStockRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ISuperRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IUserRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/CategoriesService.cs" deviationsHash="543E2BCC72E661F765A9B9B1774F9DD99F4064196364DFE4105561626486E69F" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/ICategoriesService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/IOrderDomainService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/ISecondService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/OrderDomainService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/SecondService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/ValueObject.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/AdvancedMappingCrud.RichDomain.Tests.Infrastructure.csproj" deviationsHash="E71DDD38959858A0543293ABC486666E41A4CFAC892EA7CD88EDC1C4304F639D" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Migrations/README.md" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/ApplicationDbContext.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CategoryConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ChildParentExcludedConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ChildSimpleConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CompanyConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CustomConstructorConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CustomerConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilyComplexConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilyComplexSkippedConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilySimpleConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/OrderConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/PersonConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ProductConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/SpecializedProductConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/StockConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/SuperConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/UserConfiguration.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CategoryRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ChildParentExcludedRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ChildSimpleRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CompanyRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CustomConstructorRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CustomerRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilyComplexRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilyComplexSkippedRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilySimpleRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/OrderRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/PersonRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ProductRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/RepositoryBase.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/SpecializedProductRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/StockRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/SuperRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/UserRepository.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Services/DomainEventService.cs" />
-  <file path="AdvancedMappingCrud.RichDomain.Tests.sln" />
+  <file path=".agents/instructions/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
+  <file path=".agents/skills/application-service-implementation/SKILL.md" templateId="Intent.Application.ServiceImplementations.ServiceImplementationSkillTemplate" />
+  <file path=".agents/skills/domain-entity/SKILL.md" templateId="Intent.Entities.DomainEntitySkill" />
+  <file path=".agents/skills/domain-services/SKILL.md" templateId="Intent.DomainServices.DomainServiceSkill" />
+  <file path=".agents/skills/ef-repository/SKILL.md" templateId="Intent.EntityFrameworkCore.Repositories.EFRepositorySkillTemplate" />
+  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" templateId="Intent.Application.FluentValidation.CustomValidationSkillTemplate" />
+  <file path=".agents/skills/mediatr-command-handler/SKILL.md" templateId="Intent.Application.MediatR.CommandHandlerSkillTemplate" />
+  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" templateId="Intent.MediatR.DomainEvents.DomainEventHandlerSkill" />
+  <file path=".agents/skills/mediatr-query-handler/SKILL.md" templateId="Intent.Application.MediatR.QueryHandlerSkillTemplate" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/AdvancedMappingCrud.RichDomain.Tests.Api.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" templateId="Intent.AspNetCore.Versioning.ApiVersionSwaggerGenOptions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApiVersioningConfiguration.cs" templateId="Intent.AspNetCore.Versioning.ApiVersioningConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" templateId="Intent.Application.Identity.ApplicationSecurityConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/HealthChecksConfiguration.cs" templateId="Intent.AspNetCore.HealthChecks.HealthChecksConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" templateId="Intent.AspNetCore.ProblemDetailsConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Configuration/SwashbuckleConfiguration.cs" templateId="Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/CompaniesController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/CustomersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/HierarchyController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/OrdersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/PeopleController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/ProductsController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" templateId="Intent.AspNetCore.Controllers.JsonResponse" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Controllers/UsersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/ExceptionFilter.cs" templateId="Intent.AspNetCore.Controllers.ExceptionFilter" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.HideRouteParametersFromBodyOperationFilter" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Filters/TypeSchemaFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.TypeSchemaFilter" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" templateId="Intent.Modules.AspNetCore.Logging.Serilog.BoundedLoggingDestructuringPolicyTemplate" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Program.cs" templateId="Intent.AspNetCore.Program" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Properties/launchSettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.LaunchSettings" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Services/CurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserService" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/Startup.cs" templateId="Intent.AspNetCore.Startup" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Api/appsettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.AppSettings-Default" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/AdvancedMappingCrud.RichDomain.Tests.Application.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.AuthorizationBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.LoggingBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.PerformanceBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" templateId="Intent.Application.MediatR.FluentValidation.ValidationBehaviour" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" templateId="Intent.Application.Identity.ForbiddenAccessException" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" templateId="Intent.Application.MediatR.FluentValidation.BypassPipelineValidationInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICommand.cs" templateId="Intent.Application.MediatR.CommandInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICurrentUser.cs" templateId="Intent.Application.Identity.CurrentUserInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/ICurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IDomainEventService.cs" templateId="Intent.DomainEvents.DomainEventServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Interfaces/IQuery.cs" templateId="Intent.Application.MediatR.QueryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Mappings/IMapFrom.cs" templateId="Intent.Application.AutoMapper.MapFromInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Mappings/MappingProfile.cs" templateId="Intent.Application.AutoMapper.MappingProfile" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Models/DomainEventNotification.cs" templateId="Intent.MediatR.DomainEvents.DomainEventNotification" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Models/Result.cs" templateId="Intent.Application.Identity.ResultModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedList.cs" templateId="Intent.EntityFrameworkCore.PagedList" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedResult.cs" templateId="Intent.Application.Dtos.Pagination.PagedResult" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" templateId="Intent.Application.Dtos.Pagination.PagedResultMappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Security/AuthorizeAttribute.cs" templateId="Intent.Application.Identity.AuthorizeAttribute" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/IValidationService.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidationServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/IValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProviderInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/ValidationService.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidationService" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Common/Validation/ValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProvider" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CompanyDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CompanyDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompany/CreateCompanyCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompanyContactDetailsVODto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/CreateCompanyContactDetailsVODtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/DeleteCompany/DeleteCompanyCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanies/GetCompaniesQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Companies/GetCompanyById/GetCompanyByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserAddressesDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserAddressesDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserContactDetailsVODto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserContactDetailsVODtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CreateCustomerUserDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CustomerDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/DependencyInjection.cs" templateId="Intent.Application.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/OnAddressCreatedHandler.cs" templateId="Intent.MediatR.DomainEvents.DefaultDomainEventHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockBaseEventHandler.cs" templateId="Intent.MediatR.DomainEvents.DefaultDomainEventHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockCreatedEventHandler.cs" templateId="Intent.MediatR.DomainEvents.DomainEventHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/StockLevelUpdatedEventHandler.cs" templateId="Intent.MediatR.DomainEvents.DomainEventHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/EventHandlers/Stocks/StockCreatedEventHandler.cs" templateId="Intent.MediatR.DomainEvents.DomainEventHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Aunt5.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Aunt5Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1MappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child1Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2MappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child2Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child3.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child3Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child4.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child4Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5MappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Child5Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1Command.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1CommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild1/CreateChild1CommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2Command.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2CommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild2/CreateChild2CommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3Command.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3CommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild3/CreateChild3CommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4Command.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4CommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild4/CreateChild4CommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5Command.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5CommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/CreateChild5/CreateChild5CommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent3.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent3Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent4.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent4Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent5.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Grandparent5Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent4.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent4Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent5.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/GreatGrandparent5Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent1.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent1Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent2.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent3.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent3Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent4.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent4Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent5.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Hierarchy/Parent5Validator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrder/CreateOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderComboStatic/CreateOrderComboStaticCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderOrderItemDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStatic/CreateOrderStaticCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/CreateOrderStaticCombo/CreateOrderStaticComboCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/DeleteOrder/DeleteOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrderById/GetOrderByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/GetOrders/GetOrdersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/OrderDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/OrderDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemUpdateDCDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderItemsOrder/UpdateOrderItemsOrderCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Orders/UpdateOrderWithDomainService/UpdateOrderWithDomainServiceCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePerson/CreatePersonCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsNameDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/CreatePersonPersonDetailsNameDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/DeletePerson/DeletePersonCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPeople/GetPeopleQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/GetPersonById/GetPersonByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsNameDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/PersonPersonPersonDetailsNameDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePerson/UpdatePersonCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsNameDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/People/UpdatePersonDetailsNameDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesProduct/ChangeCategoriesProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ChangeCategoriesSyncProduct/ChangeCategoriesSyncProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/CreateProduct/CreateProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DeleteProduct/DeleteProductCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/DoManual/DoManualCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProductById/GetProductByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/GetProducts/GetProductsQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ProductDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Products/ProductDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/BaseStockDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/BaseStockDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/CreateStock/CreateStockCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/DeleteStock/DeleteStockCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStockById/GetStockByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/GetStocks/GetStocksQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/StockDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/TimeDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Stocks/UpdateStockLevelStock/UpdateStockLevelStockCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/CreateSuper/CreateSuperCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/DeleteSuper/DeleteSuperCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSuperById/GetSuperByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/GetSupers/GetSupersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/SuperDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Supers/SuperDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddAddressDCDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddAddressDCDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddCollectionsUser/AddCollectionsUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddContactDetailsVODto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/AddContactDetailsVODtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUser/CreateUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserAddressDCDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserAddressDCDtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserContactDetailsVODto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/CreateUserContactDetailsVODtoValidator.cs" templateId="Intent.Application.FluentValidation.Dtos.DTOValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/DeleteUser/DeleteUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUserById/GetUserByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/GetUsers/GetUsersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestAddressDCDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestAddressDCDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestCompanyDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestCompanyDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestContactDetailsVODto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestContactDetailsVODtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestDCUser/TestDCUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestEntityUser/TestEntityUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/TestVOUser/TestVOUserCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserUserAddressDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Application/Users/UserUserAddressDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/AddressType.cs" templateId="Intent.Entities.DomainEnum" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/AdvancedMappingCrud.RichDomain.Tests.Domain.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/CollectionExtensions.cs" templateId="Intent.Entities.CollectionExtensions" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/DomainEvent.cs" templateId="Intent.DomainEvents.DomainEventBase" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/Exceptions/NotFoundException.cs" templateId="Intent.Entities.NotFoundException" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/IHasDomainEvent.cs" templateId="Intent.DomainEvents.HasDomainEventInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" templateId="Intent.Entities.Repositories.Api.UnitOfWorkInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Common/UpdateHelper.cs" templateId="Intent.Entities.UpdateHelper" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/ContactDetailsVO.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/AddressDC.cs" templateId="Intent.Entities.DataContract" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/ColumnDC.cs" templateId="Intent.Entities.DataContract" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Contracts/OrderItemUpdateDC.cs" templateId="Intent.Entities.DataContract" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Address.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/AddressDetails.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/BaseClass.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Category.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/ChildParentExcluded.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/ChildSimple.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Company.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/CustomConstructor.cs" deviationsHash="927954DC256C16AE74637C72BFF187041C4F34AA14D1BDA4523541FC68A996A8" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Customer.cs" deviationsHash="09317AD7309D4BA68F3A8ECF268265AF99D679A9CE65A8651BBF3F3B4FD1A0C4" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilyComplex.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilyComplexSkipped.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/FamilySimple.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Order.cs" deviationsHash="7562359D56F05FAE6030FC92E9A71D5523822D242BD2C94EE9EE8F0142B5587E" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/OrderItem.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Person.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Product.cs" deviationsHash="F7E3C933EBE6B40FB86B548B2D40D95103BC0078BA89BC5E0F556E9BE0E4CAE4" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/SpecializedProduct.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Stock.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/Super.cs" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Entities/User.cs" deviationsHash="B664926205CFCB12AC3945E4DFA74CD7F53343876FFBFF17F068521310CB3CA9" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/OnAddressCreated.cs" templateId="Intent.DomainEvents.DomainEvent" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockBaseEvent.cs" templateId="Intent.DomainEvents.DomainEvent" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockCreatedEvent.cs" templateId="Intent.DomainEvents.DomainEvent" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Events/StockLevelUpdatedEvent.cs" templateId="Intent.DomainEvents.DomainEvent" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Names.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/PersonDetails.cs" templateId="Intent.ValueObjects.ValueObject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICategoryRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IChildParentExcludedRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IChildSimpleRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICompanyRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICustomConstructorRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ICustomerRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IEFRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.EFRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilyComplexRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilyComplexSkippedRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IFamilySimpleRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IOrderRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IPagedList.cs" templateId="Intent.Entities.Repositories.Api.PagedListInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IPersonRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IProductRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IRepository.cs" templateId="Intent.Entities.Repositories.Api.RepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ISpecializedProductRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IStockRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/ISuperRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Repositories/IUserRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/CategoriesService.cs" deviationsHash="543E2BCC72E661F765A9B9B1774F9DD99F4064196364DFE4105561626486E69F" templateId="Intent.DomainServices.DomainServiceImplementation" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/ICategoriesService.cs" templateId="Intent.DomainServices.DomainServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/IOrderDomainService.cs" templateId="Intent.DomainServices.DomainServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/ISecondService.cs" templateId="Intent.DomainServices.DomainServiceInterface" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/OrderDomainService.cs" templateId="Intent.DomainServices.DomainServiceImplementation" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/Services/SecondService.cs" templateId="Intent.DomainServices.DomainServiceImplementation" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Domain/ValueObject.cs" templateId="Intent.ValueObjects.ValueObjectBase" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/AdvancedMappingCrud.RichDomain.Tests.Infrastructure.csproj" deviationsHash="E71DDD38959858A0543293ABC486666E41A4CFAC892EA7CD88EDC1C4304F639D" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/DependencyInjection.cs" templateId="Intent.Infrastructure.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Migrations/README.md" templateId="Intent.EntityFrameworkCore.DbMigrationsReadMe" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/ApplicationDbContext.cs" templateId="Intent.EntityFrameworkCore.DbContext" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CategoryConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ChildParentExcludedConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ChildSimpleConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CompanyConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CustomConstructorConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/CustomerConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilyComplexConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilyComplexSkippedConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/FamilySimpleConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/OrderConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/PersonConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/ProductConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/SpecializedProductConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/StockConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/SuperConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Persistence/Configurations/UserConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CategoryRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ChildParentExcludedRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ChildSimpleRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CompanyRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CustomConstructorRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/CustomerRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilyComplexRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilyComplexSkippedRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/FamilySimpleRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/OrderRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/PersonRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/ProductRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/RepositoryBase.cs" templateId="Intent.EntityFrameworkCore.Repositories.RepositoryBase" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/SpecializedProductRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/StockRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/SuperRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Repositories/UserRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.Infrastructure/Services/DomainEventService.cs" templateId="Intent.MediatR.DomainEvents.DomainEventService" />
+  <file path="AdvancedMappingCrud.RichDomain.Tests.sln" templateId="Intent.VisualStudio.Projects.VisualStudioSolution" />
 </managedFiles>

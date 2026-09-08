@@ -1,106 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <managedFiles version="1" applicationId="e931eb22-645c-475d-91b2-4e37a92b5f77">
-  <file path=".agents/instructions/csharp-guidelines.md" />
-  <file path=".agents/skills/application-service-implementation/SKILL.md" />
-  <file path=".agents/skills/domain-entity/SKILL.md" />
-  <file path=".agents/skills/ef-repository/SKILL.md" />
-  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" />
-  <file path=".agents/skills/mediatr-command-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" />
-  <file path=".agents/skills/mediatr-query-handler/SKILL.md" />
-  <file path=".gitignore" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api.csproj" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApiVersioningConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/HealthChecksConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/SwashbuckleConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Controllers/CustomersController.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/ExceptionFilter.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/TypeSchemaFilter.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Program.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Properties/launchSettings.json" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Services/CurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Startup.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/appsettings.json" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application.csproj" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICommand.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICurrentUser.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICurrentUserService.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IDomainEventService.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Mappings/IMapFrom.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Mappings/MappingProfile.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Models/DomainEventNotification.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Models/Result.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedList.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedResult.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Security/AuthorizeAttribute.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Validation/IValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Validation/ValidatorProvider.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CustomerDto.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQuery.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommand.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandHandler.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandValidator.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain.csproj" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/CollectionExtensions.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/DomainEvent.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/Exceptions/NotFoundException.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/IHasDomainEvent.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/UpdateHelper.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Entities/Customer.cs" deviationsHash="22EA6FA615A6B4A3F7ADB914FA643652711BB39D066D8775C9EB03831C156FB7" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/ICustomerRepository.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IEFRepository.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IPagedList.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IRepository.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure.csproj" deviationsHash="AFB1684283F56C16FF693D3579BDA5ED8A9B0BB6F0F395D700BB54B1281BC5BE" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/DependencyInjection.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Migrations/README.md" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Persistence/ApplicationDbContext.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Persistence/Configurations/CustomerConfiguration.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Repositories/CustomerRepository.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Repositories/RepositoryBase.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Services/DomainEventService.cs" />
-  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.sln" />
+  <file path=".agents/instructions/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
+  <file path=".agents/skills/application-service-implementation/SKILL.md" templateId="Intent.Application.ServiceImplementations.ServiceImplementationSkillTemplate" />
+  <file path=".agents/skills/domain-entity/SKILL.md" templateId="Intent.Entities.DomainEntitySkill" />
+  <file path=".agents/skills/ef-repository/SKILL.md" templateId="Intent.EntityFrameworkCore.Repositories.EFRepositorySkillTemplate" />
+  <file path=".agents/skills/fluent-validation-custom-validation/SKILL.md" templateId="Intent.Application.FluentValidation.CustomValidationSkillTemplate" />
+  <file path=".agents/skills/mediatr-command-handler/SKILL.md" templateId="Intent.Application.MediatR.CommandHandlerSkillTemplate" />
+  <file path=".agents/skills/mediatr-domain-event-handler/SKILL.md" templateId="Intent.MediatR.DomainEvents.DomainEventHandlerSkill" />
+  <file path=".agents/skills/mediatr-query-handler/SKILL.md" templateId="Intent.Application.MediatR.QueryHandlerSkillTemplate" />
+  <file path=".gitignore" templateId="Intent.VisualStudio.Projects.GitIgnore" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApiVersionSwaggerGenOptions.cs" templateId="Intent.AspNetCore.Versioning.ApiVersionSwaggerGenOptions" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApiVersioningConfiguration.cs" templateId="Intent.AspNetCore.Versioning.ApiVersioningConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ApplicationSecurityConfiguration.cs" templateId="Intent.Application.Identity.ApplicationSecurityConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/HealthChecksConfiguration.cs" templateId="Intent.AspNetCore.HealthChecks.HealthChecksConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/ProblemDetailsConfiguration.cs" templateId="Intent.AspNetCore.ProblemDetailsConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Configuration/SwashbuckleConfiguration.cs" templateId="Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Controllers/CustomersController.cs" templateId="Intent.AspNetCore.Controllers.Controller" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Controllers/ResponseTypes/JsonResponse.cs" templateId="Intent.AspNetCore.Controllers.JsonResponse" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/AuthorizeCheckOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.Security.AuthorizeCheckOperationFilter" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/ExceptionFilter.cs" templateId="Intent.AspNetCore.Controllers.ExceptionFilter" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/HideRouteParametersFromBodyOperationFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.HideRouteParametersFromBodyOperationFilter" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Filters/TypeSchemaFilter.cs" templateId="Intent.AspNetCore.Swashbuckle.TypeSchemaFilter" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Logging/BoundedLoggingDestructuringPolicy.cs" templateId="Intent.Modules.AspNetCore.Logging.Serilog.BoundedLoggingDestructuringPolicyTemplate" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Program.cs" templateId="Intent.AspNetCore.Program" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Properties/launchSettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.LaunchSettings" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Services/CurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserService" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/Startup.cs" templateId="Intent.AspNetCore.Startup" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Api/appsettings.json" templateId="Intent.VisualStudio.Projects.CoreWeb.AppSettings-Default" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/AuthorizationBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.AuthorizationBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/LoggingBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.LoggingBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/PerformanceBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.PerformanceBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/UnhandledExceptionBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/UnitOfWorkBehaviour.cs" templateId="Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Behaviours/ValidationBehaviour.cs" templateId="Intent.Application.MediatR.FluentValidation.ValidationBehaviour" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Exceptions/ForbiddenAccessException.cs" templateId="Intent.Application.Identity.ForbiddenAccessException" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IBypassPipelineValidation.cs" templateId="Intent.Application.MediatR.FluentValidation.BypassPipelineValidationInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICommand.cs" templateId="Intent.Application.MediatR.CommandInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICurrentUser.cs" templateId="Intent.Application.Identity.CurrentUserInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/ICurrentUserService.cs" templateId="Intent.Application.Identity.CurrentUserServiceInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IDomainEventService.cs" templateId="Intent.DomainEvents.DomainEventServiceInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Interfaces/IQuery.cs" templateId="Intent.Application.MediatR.QueryInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Mappings/IMapFrom.cs" templateId="Intent.Application.AutoMapper.MapFromInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Mappings/MappingProfile.cs" templateId="Intent.Application.AutoMapper.MappingProfile" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Models/DomainEventNotification.cs" templateId="Intent.MediatR.DomainEvents.DomainEventNotification" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Models/Result.cs" templateId="Intent.Application.Identity.ResultModel" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedList.cs" templateId="Intent.EntityFrameworkCore.PagedList" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedResult.cs" templateId="Intent.Application.Dtos.Pagination.PagedResult" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Pagination/PagedResultMappingExtensions.cs" templateId="Intent.Application.Dtos.Pagination.PagedResultMappingExtensions" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Security/AuthorizeAttribute.cs" templateId="Intent.Application.Identity.AuthorizeAttribute" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Validation/IValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProviderInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Common/Validation/ValidatorProvider.cs" templateId="Intent.Application.FluentValidation.Dtos.ValidatorProvider" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/ChangeEmailCustomer/ChangeEmailCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CreateCustomer/CreateCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CustomerDto.cs" templateId="Intent.Application.Dtos.DtoModel" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/CustomerDtoMappingExtensions.cs" templateId="Intent.Application.Dtos.AutoMapper.MappingExtensions" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/DeleteCustomer/DeleteCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerById/GetCustomerByIdQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerByName/GetCustomerByNameQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomerBySearch/GetCustomerBySearchQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomers/GetCustomersQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQuery.cs" templateId="Intent.Application.MediatR.QueryModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryHandler.cs" templateId="Intent.Application.MediatR.QueryHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/GetCustomersPaged/GetCustomersPagedQueryValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.QueryValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommand.cs" templateId="Intent.Application.MediatR.CommandModels" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandHandler.cs" templateId="Intent.Application.MediatR.CommandHandler" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/Customers/UpdateCustomer/UpdateCustomerCommandValidator.cs" templateId="Intent.Application.MediatR.FluentValidation.CommandValidator" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Application/DependencyInjection.cs" templateId="Intent.Application.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/CollectionExtensions.cs" templateId="Intent.Entities.CollectionExtensions" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/DomainEvent.cs" templateId="Intent.DomainEvents.DomainEventBase" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/Exceptions/NotFoundException.cs" templateId="Intent.Entities.NotFoundException" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/IHasDomainEvent.cs" templateId="Intent.DomainEvents.HasDomainEventInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/Interfaces/IUnitOfWork.cs" templateId="Intent.Entities.Repositories.Api.UnitOfWorkInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Common/UpdateHelper.cs" templateId="Intent.Entities.UpdateHelper" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Entities/Customer.cs" deviationsHash="22EA6FA615A6B4A3F7ADB914FA643652711BB39D066D8775C9EB03831C156FB7" templateId="Intent.Entities.DomainEntity" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/ICustomerRepository.cs" templateId="Intent.Entities.Repositories.Api.EntityRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IEFRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.EFRepositoryInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IPagedList.cs" templateId="Intent.Entities.Repositories.Api.PagedListInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Domain/Repositories/IRepository.cs" templateId="Intent.Entities.Repositories.Api.RepositoryInterface" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure.csproj" deviationsHash="AFB1684283F56C16FF693D3579BDA5ED8A9B0BB6F0F395D700BB54B1281BC5BE" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/DependencyInjection.cs" templateId="Intent.Infrastructure.DependencyInjection.DependencyInjection" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Migrations/README.md" templateId="Intent.EntityFrameworkCore.DbMigrationsReadMe" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Persistence/ApplicationDbContext.cs" templateId="Intent.EntityFrameworkCore.DbContext" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Persistence/Configurations/CustomerConfiguration.cs" templateId="Intent.EntityFrameworkCore.EntityTypeConfiguration" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Repositories/CustomerRepository.cs" templateId="Intent.EntityFrameworkCore.Repositories.Repository" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Repositories/RepositoryBase.cs" templateId="Intent.EntityFrameworkCore.Repositories.RepositoryBase" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.Infrastructure/Services/DomainEventService.cs" templateId="Intent.MediatR.DomainEvents.DomainEventService" />
+  <file path="AdvancedMappingCrud.Repositories.ProjectTo.Tests.sln" templateId="Intent.VisualStudio.Projects.VisualStudioSolution" />
 </managedFiles>
