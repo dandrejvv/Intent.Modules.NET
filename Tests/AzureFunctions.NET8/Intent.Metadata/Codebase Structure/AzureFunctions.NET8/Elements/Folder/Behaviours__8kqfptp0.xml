@@ -31,7 +31,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;8493871f-00d5-457a-ad76-0a5c8dc56fc0&quot;,&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -47,7 +57,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -63,7 +83,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -79,7 +109,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -95,7 +135,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;,&quot;de30f949-5e2f-4a54-9e00-0ee58debd30b&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -111,7 +161,17 @@
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
       <packageId>dd3f3e5c-e812-46db-af89-f630a56fa304</packageId>
       <packageName>AzureFunctions.NET8</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;a07a40a6-add8-4fbd-aa6c-78baebe4dbbb&quot;,&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -125,7 +185,17 @@
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>5d97067c-7715-443b-aee9-424e192ffe28</parentFolderId>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;2657493d-1a97-453d-bb6b-013a0b7bae53&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>

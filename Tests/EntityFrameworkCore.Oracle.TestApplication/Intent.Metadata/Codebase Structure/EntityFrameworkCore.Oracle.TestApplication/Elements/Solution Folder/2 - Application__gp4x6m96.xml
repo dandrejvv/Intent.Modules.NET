@@ -76,7 +76,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;799e074c-d053-4503-a9b1-ac2ad0835362&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -90,7 +100,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;e2a0e9bd-12df-47c9-994a-ccc6d3f8a4c1&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -104,7 +124,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;e2a0e9bd-12df-47c9-994a-ccc6d3f8a4c1&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -118,7 +148,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;4f06f07b-cfb0-4d48-8b3a-be768aace33d&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -132,7 +172,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f0e26bcb-1764-40eb-bc6f-4f1403b6751e&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -146,7 +196,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;5ae7cf88-f938-451a-a6ce-c9de3e517845&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -160,7 +220,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;e2a0e9bd-12df-47c9-994a-ccc6d3f8a4c1&quot;,&quot;80807be9-695a-4a5e-a9a9-4589ab59931a&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -174,7 +244,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;5ae7cf88-f938-451a-a6ce-c9de3e517845&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -188,7 +268,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;e2a0e9bd-12df-47c9-994a-ccc6d3f8a4c1&quot;,&quot;80807be9-695a-4a5e-a9a9-4589ab59931a&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -202,7 +292,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f0e26bcb-1764-40eb-bc6f-4f1403b6751e&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>
@@ -216,7 +316,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>b7f8bb0a-30a9-4464-ada1-85a8f95ae87a</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f0e26bcb-1764-40eb-bc6f-4f1403b6751e&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>

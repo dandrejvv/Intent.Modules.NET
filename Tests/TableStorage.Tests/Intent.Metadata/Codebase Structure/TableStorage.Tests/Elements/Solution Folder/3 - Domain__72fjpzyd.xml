@@ -95,7 +95,17 @@
               <genericTypes />
               <isMapped>false</isMapped>
               <parentFolderId>403dc399-eac5-4cd2-b614-81f24dbb7655</parentFolderId>
-              <stereotypes />
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+                  <addedByDefault>false</addedByDefault>
+                  <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+                  <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+                  <properties>
+                    <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;9bf43a02-ee97-4db2-8784-62c8fe7e908e&quot;]" isActive="true" />
+                    <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
               <metadata>
                 <entry key="status" value="assigned" />
               </metadata>
@@ -163,7 +173,17 @@
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>4e188162-14f3-45e8-bdd1-a9c7ccfbfbf7</parentFolderId>
-          <stereotypes />
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+              <addedByDefault>false</addedByDefault>
+              <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+              <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+              <properties>
+                <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;9bf43a02-ee97-4db2-8784-62c8fe7e908e&quot;]" isActive="true" />
+                <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
           <metadata>
             <entry key="status" value="assigned" />
           </metadata>

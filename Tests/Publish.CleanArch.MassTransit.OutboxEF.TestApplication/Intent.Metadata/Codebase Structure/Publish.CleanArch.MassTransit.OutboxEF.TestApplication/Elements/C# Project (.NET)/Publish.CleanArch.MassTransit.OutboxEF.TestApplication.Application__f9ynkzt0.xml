@@ -58,7 +58,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;95360ef7-58b3-4981-a916-e34287b167c4&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -74,7 +84,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;0e17dc90-42ee-4671-ac00-cdf6998b98e4&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -90,7 +110,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;4430d536-3fb8-4705-aa6c-1fde6c6e1981&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -106,7 +136,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;9618e642-0c37-45f9-8ca6-79988148cfd1&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -122,7 +162,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;0e17dc90-42ee-4671-ac00-cdf6998b98e4&quot;,&quot;c74cae63-ef73-46a6-95e0-16f2d08a414d&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -138,7 +188,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;9618e642-0c37-45f9-8ca6-79988148cfd1&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -154,7 +214,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;0e17dc90-42ee-4671-ac00-cdf6998b98e4&quot;,&quot;c74cae63-ef73-46a6-95e0-16f2d08a414d&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -170,7 +240,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;6238b036-0afb-4316-83f6-c98be46fe041&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -186,7 +266,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;6238b036-0afb-4316-83f6-c98be46fe041&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -202,7 +292,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;0e17dc90-42ee-4671-ac00-cdf6998b98e4&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -218,7 +318,17 @@
       <parentFolderId>1f09bfc0-3422-4043-84cf-cee8727c188b</parentFolderId>
       <packageId>3fe47d94-1efe-4443-b2c9-0a13a61875b6</packageId>
       <packageName>Publish.CleanArch.MassTransit.OutboxEF.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;6238b036-0afb-4316-83f6-c98be46fe041&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="2 - Medium" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>

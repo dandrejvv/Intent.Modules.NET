@@ -59,7 +59,17 @@
       <parentFolderId>af02fb6f-c1dc-4529-9231-d8a99dbb4322</parentFolderId>
       <packageId>9f2cb83e-a5fc-4377-8dda-dc86eecaea12</packageId>
       <packageName>EntityFrameworkCore.Repositories.TestApplication</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;9678b1a2-81f7-42a4-b770-ffbc0c8635f9&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>

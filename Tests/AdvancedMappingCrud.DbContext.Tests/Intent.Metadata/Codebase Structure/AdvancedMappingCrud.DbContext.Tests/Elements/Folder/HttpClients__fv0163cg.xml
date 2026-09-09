@@ -32,7 +32,17 @@
       <parentFolderId>e7203cc8-e6af-4df9-a702-e6a994fe1544</parentFolderId>
       <packageId>1f431e6e-b70a-4bb6-a0ef-7458f32b5512</packageId>
       <packageName>AdvancedMappingCrud.DbContext.Tests</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f7b05977-92b9-4d99-9514-ec024464d515&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="1 - Low" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -48,7 +58,16 @@
       <parentFolderId>e7203cc8-e6af-4df9-a702-e6a994fe1544</parentFolderId>
       <packageId>1f431e6e-b70a-4bb6-a0ef-7458f32b5512</packageId>
       <packageName>AdvancedMappingCrud.DbContext.Tests</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f7b05977-92b9-4d99-9514-ec024464d515&quot;]" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -64,7 +83,16 @@
       <parentFolderId>e7203cc8-e6af-4df9-a702-e6a994fe1544</parentFolderId>
       <packageId>1f431e6e-b70a-4bb6-a0ef-7458f32b5512</packageId>
       <packageName>AdvancedMappingCrud.DbContext.Tests</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f7b05977-92b9-4d99-9514-ec024464d515&quot;]" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -80,7 +108,16 @@
       <parentFolderId>e7203cc8-e6af-4df9-a702-e6a994fe1544</parentFolderId>
       <packageId>1f431e6e-b70a-4bb6-a0ef-7458f32b5512</packageId>
       <packageName>AdvancedMappingCrud.DbContext.Tests</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f7b05977-92b9-4d99-9514-ec024464d515&quot;]" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
@@ -96,7 +133,17 @@
       <parentFolderId>e7203cc8-e6af-4df9-a702-e6a994fe1544</parentFolderId>
       <packageId>1f431e6e-b70a-4bb6-a0ef-7458f32b5512</packageId>
       <packageName>AdvancedMappingCrud.DbContext.Tests</packageName>
-      <stereotypes />
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="98cff892-b03e-4d9c-b1dc-031cb0c900ee" name="Output Classification">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Modelers.CodebaseStructure</definitionPackageName>
+          <definitionPackageId>525868ff-adc0-4ab6-a90e-352288da941f</definitionPackageId>
+          <properties>
+            <property name="0acdff86-3981-4950-921c-f5642a3e2374" display="Classification" value="[&quot;f7b05977-92b9-4d99-9514-ec024464d515&quot;,&quot;35a8998a-b8e6-4b5a-adba-6f53a56fef69&quot;]" isActive="true" />
+            <property name="277dec79-e6f2-4e4a-ab8e-1849990889a1" display="Severity" value="3 - High" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
       <metadata>
         <entry key="status" value="assigned" />
       </metadata>
