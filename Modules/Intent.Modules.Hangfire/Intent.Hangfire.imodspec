@@ -39,7 +39,7 @@
       <role>Distribution.HangfireJobs</role>
       <location>HangfireJobs</location>
       <severity>medium</severity>
-      <classifications>App Composition;Business Logic</classifications>
+      <classifications>App Composition,Business Logic</classifications>
     </template>
   </templates>
   <decorators></decorators>

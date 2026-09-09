@@ -19,7 +19,7 @@
       <role>Distribution</role>
       <location>Configuration</location>
       <severity>high</severity>
-      <classifications>Security;App Composition</classifications>
+      <classifications>Security,App Composition</classifications>
     </template>
     <template id="Intent.Application.Identity.AuthorizeAttribute" externalReference="4d5052dc-6360-46f0-a1e2-e4b81d90424e">
       <config>

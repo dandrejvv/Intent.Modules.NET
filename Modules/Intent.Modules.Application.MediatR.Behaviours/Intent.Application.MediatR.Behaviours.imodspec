@@ -19,7 +19,7 @@
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
       <severity>high</severity>
-      <classifications>Security;Request Pipeline</classifications>
+      <classifications>Security,Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.LoggingBehaviour" externalReference="68ec10f6-35bb-4b18-9845-d5ef91513cff">
       <config>
@@ -69,7 +69,7 @@
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
       <severity>high</severity>
-      <classifications>Request Pipeline;Persistence Schema</classifications>
+      <classifications>Request Pipeline,Persistence Schema</classifications>
     </template>
   </templates>
   <interoperability>

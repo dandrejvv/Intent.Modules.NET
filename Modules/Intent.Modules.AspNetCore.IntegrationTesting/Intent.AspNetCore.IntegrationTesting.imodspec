@@ -100,7 +100,7 @@
       <role>IntegrationTests</role>
       <location></location>
       <severity>high</severity>
-      <classifications>Tests;Security</classifications>
+      <classifications>Tests,Security</classifications>
     </template>
     <template id="Intent.AspNetCore.IntegrationTesting.JsonResponse" externalReference="b6cd8740-54cb-4d7f-a99a-0d31c33cccaa">
       <config>
@@ -155,7 +155,7 @@
       <role>IntegrationTests.HttpClients</role>
       <location></location>
       <severity>high</severity>
-      <classifications>Tests;API Contract</classifications>
+      <classifications>Tests,API Contract</classifications>
     </template>
     <template id="Intent.AspNetCore.IntegrationTesting.ServiceEndpointTest" externalReference="e0586df8-b1e3-4f5d-b2f1-3632fdd9fcd3">
       <config>

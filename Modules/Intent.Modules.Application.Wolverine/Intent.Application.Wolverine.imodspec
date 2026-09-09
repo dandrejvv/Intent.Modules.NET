@@ -25,7 +25,7 @@
       <role>Infrastructure.Wolverine.Dispatch.Middleware.AuthorizationMiddleware</role>
       <location>Dispatch/Middleware</location>
       <severity>high</severity>
-      <classifications>Security;Request Pipeline</classifications>
+      <classifications>Security,Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.Wolverine.CommandHandler" externalReference="c92d8653-0047-4b7f-aa25-3c0b7dc89a79">
       <config>
@@ -57,7 +57,7 @@
       <role>Application.Command</role>
       <location></location>
       <severity>high</severity>
-      <classifications>API Contract;Security</classifications>
+      <classifications>API Contract,Security</classifications>
     </template>
     <template id="Intent.Application.Wolverine.LoggingMiddleware" externalReference="a5f30e95-4cce-4512-a573-1b38694f5041">
       <config>
@@ -119,7 +119,7 @@
       <role>Application.Query</role>
       <location></location>
       <severity>high</severity>
-      <classifications>API Contract;Security</classifications>
+      <classifications>API Contract,Security</classifications>
     </template>
     <template id="Intent.Application.Wolverine.UnhandledExceptionMiddleware" externalReference="234f1e53-7615-4ded-870a-fc34d08c8a3b">
       <config>
@@ -139,7 +139,7 @@
       <role>Infrastructure.Wolverine.Dispatch.Middleware.UnitOfWorkMiddleware</role>
       <location>Dispatch/Middleware</location>
       <severity>high</severity>
-      <classifications>Request Pipeline;Persistence Schema</classifications>
+      <classifications>Request Pipeline,Persistence Schema</classifications>
     </template>
     <template id="Intent.Application.Wolverine.ValidationMiddleware" externalReference="6b27b8cb-ae1b-422a-a359-5a5bdc537ef1">
       <config>
@@ -149,7 +149,7 @@
       <role>Infrastructure.Wolverine.Dispatch.Middleware.ValidationMiddleware</role>
       <location>Dispatch/Middleware</location>
       <severity>high</severity>
-      <classifications>Validation;Request Pipeline</classifications>
+      <classifications>Validation,Request Pipeline</classifications>
     </template>
   </templates>
   <decorators></decorators>

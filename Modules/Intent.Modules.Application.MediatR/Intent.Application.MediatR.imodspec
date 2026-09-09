@@ -41,7 +41,7 @@
       <role>Application.Command</role>
       <location></location>
       <severity>high</severity>
-      <classifications>API Contract;Security</classifications>
+      <classifications>API Contract,Security</classifications>
     </template>
     <template id="Intent.Application.MediatR.QueryHandler" externalReference="3a8eb772-0533-42c8-9767-a87c67884d46">
       <config>
@@ -73,7 +73,7 @@
       <role>Application.Query</role>
       <location></location>
       <severity>high</severity>
-      <classifications>API Contract;Security</classifications>
+      <classifications>API Contract,Security</classifications>
     </template>
   </templates>
   <dependencies>

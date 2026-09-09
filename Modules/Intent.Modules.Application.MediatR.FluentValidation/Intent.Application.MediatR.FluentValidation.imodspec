@@ -49,7 +49,7 @@
       <role>Application.Common.ValidationBehaviour</role>
       <location>Common/Behaviours</location>
       <severity>high</severity>
-      <classifications>Validation;Request Pipeline</classifications>
+      <classifications>Validation,Request Pipeline</classifications>
     </template>
   </templates>
   <decorators />

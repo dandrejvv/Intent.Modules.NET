@@ -39,7 +39,7 @@
       <role>Distribution.WebApi.Controller</role>
       <location>Controllers</location>
       <severity>high</severity>
-      <classifications>API Contract;Security</classifications>
+      <classifications>API Contract,Security</classifications>
     </template>
     <template id="Intent.AspNetCore.Controllers.ExceptionFilter" externalReference="9675befd-6b2e-4ec3-afd1-4dc467bb9175">
       <config>
@@ -49,7 +49,7 @@
       <role>Distribution.ExceptionFilter</role>
       <location>Filters</location>
       <severity>high</severity>
-      <classifications>Request Pipeline;API Contract</classifications>
+      <classifications>Request Pipeline,API Contract</classifications>
     </template>
     <template id="Intent.AspNetCore.Controllers.JsonResponse" externalReference="28d3d457-970f-465b-b178-ebd1896643e2">
       <config>
