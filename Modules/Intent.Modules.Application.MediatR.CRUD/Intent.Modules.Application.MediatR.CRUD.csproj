@@ -23,7 +23,7 @@
     <PackageReference Include="Intent.Modules.Modelers.Services" Version="4.0.5" />
     <PackageReference Include="Intent.Modules.Modelers.Services.CQRS" Version="6.0.5" />
     <PackageReference Include="Intent.Modules.Modelers.Services.DomainInteractions" Version="2.4.1" />
-    <PackageReference Include="Intent.Packager" Version="3.5.0">
+    <PackageReference Include="Intent.Packager" Version="3.6.2-pre.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

@@ -10,7 +10,7 @@
     <PackageReference Include="Intent.Modules.DomainServices" Version="1.1.13" />
     <PackageReference Include="Intent.Modules.Entities" Version="5.2.3" />
     <PackageReference Include="Intent.Modules.Modelers.Domain" Version="3.12.14" />
-    <PackageReference Include="Intent.Packager" Version="3.6.0">
+    <PackageReference Include="Intent.Packager" Version="3.6.2-pre.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
