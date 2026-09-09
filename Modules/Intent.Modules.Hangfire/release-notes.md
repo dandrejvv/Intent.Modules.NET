@@ -1,3 +1,7 @@
+### Version 1.0.13
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 1.0.12
 
 - Improvement: Updated NuGet package versions.

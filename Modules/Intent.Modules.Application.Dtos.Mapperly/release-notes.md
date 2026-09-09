@@ -1,3 +1,7 @@
+### Version 1.1.6
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 1.1.5
 
 - Improvement: Update the AI skill guidance to be more explicit and consistant about when and what to do with regards to Mapperly implementation.

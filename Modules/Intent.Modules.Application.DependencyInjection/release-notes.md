@@ -1,3 +1,7 @@
+### Version 4.1.18
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.1.17
 
 - Improvement: Upgraded to properly leverage the newer `EmitOrPublish` API so as to be able support advanced Codebase Structure scenarios.

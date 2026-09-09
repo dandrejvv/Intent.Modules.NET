@@ -1,3 +1,7 @@
+### Version 6.0.5
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 6.0.4
 
 - Improvement: Upgraded to properly leverage the newer `EmitOrPublish` API so as to be able support advanced Codebase Structure scenarios.

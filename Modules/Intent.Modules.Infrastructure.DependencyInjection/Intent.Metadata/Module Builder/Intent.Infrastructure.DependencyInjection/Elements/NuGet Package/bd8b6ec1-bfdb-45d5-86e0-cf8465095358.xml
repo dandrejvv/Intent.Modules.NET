@@ -17,6 +17,8 @@
       <properties>
         <property name="4de9cc21-d4fb-4d52-8dfd-2eb6cf267a9a" display="Friendly Name" isActive="true" />
         <property name="67c7c4d8-40ed-48f9-a83c-985eedb32141" display="Locked" value="false" isActive="true" />
+        <property name="c166c7cf-45e3-484b-9ec5-f7300951f897" display="Private Assets" isActive="true" />
+        <property name="6bd6430c-8011-435e-bb73-6013477a875d" display="Include Assets" isActive="true" />
       </properties>
     </stereotype>
   </stereotypes>
@@ -24,8 +26,9 @@
   <childElements>
     <childElement id="8eabba86-3d7f-4147-bff2-ca5d0a9606fb" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>10.0.9</name>
-      <display>8.0.0 ( &gt;= .NETCoreApp,Version=v8.0 )</display>
+      <display>10.0.9 ( &gt;= .NETCoreApp,Version=v8.0 )</display>
       <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>bd8b6ec1-bfdb-45d5-86e0-cf8465095358</parentFolderId>
@@ -46,11 +49,14 @@
       <childElements>
         <childElement id="b633f692-4446-46c2-b2ab-65677e2862b8" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.Extensions.Primitives</name>
+          <display>Microsoft.Extensions.Primitives (10.0.9)</display>
           <isAbstract>false</isAbstract>
           <value>10.0.9</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>8eabba86-3d7f-4147-bff2-ca5d0a9606fb</parentFolderId>
+          <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+          <packageName>Intent.Infrastructure.DependencyInjection</packageName>
           <stereotypes />
           <metadata />
           <childElements />
@@ -59,10 +65,14 @@
     </childElement>
     <childElement id="f167d39d-387b-4d37-8522-1ae0287549ad" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>10.0.9</name>
+      <display>10.0.9 ( &gt;= .NETStandard,Version=v2.0 )</display>
       <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>bd8b6ec1-bfdb-45d5-86e0-cf8465095358</parentFolderId>
+      <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+      <packageName>Intent.Infrastructure.DependencyInjection</packageName>
       <stereotypes>
         <stereotype stereotypeDefinitionId="7af88c37-ce54-49fc-b577-bde869c23462" name="Package Version Settings">
           <addedByDefault>false</addedByDefault>
@@ -78,11 +88,14 @@
       <childElements>
         <childElement id="998569ff-4560-4b66-a3b5-8a091858ff1d" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.Extensions.Primitives</name>
+          <display>Microsoft.Extensions.Primitives (10.0.9)</display>
           <isAbstract>false</isAbstract>
           <value>10.0.9</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>f167d39d-387b-4d37-8522-1ae0287549ad</parentFolderId>
+          <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+          <packageName>Intent.Infrastructure.DependencyInjection</packageName>
           <stereotypes />
           <metadata />
           <childElements />
@@ -91,10 +104,14 @@
     </childElement>
     <childElement id="a92b83a5-d2e8-4c6b-bfac-9e0e27df5e53" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>10.0.9</name>
+      <display>10.0.9 ( &gt;= .NETCoreApp,Version=v9.0 )</display>
       <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>bd8b6ec1-bfdb-45d5-86e0-cf8465095358</parentFolderId>
+      <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+      <packageName>Intent.Infrastructure.DependencyInjection</packageName>
       <stereotypes>
         <stereotype stereotypeDefinitionId="7af88c37-ce54-49fc-b577-bde869c23462" name="Package Version Settings">
           <addedByDefault>false</addedByDefault>
@@ -110,11 +127,14 @@
       <childElements>
         <childElement id="85b9a848-8e1c-493f-ae04-b75c810f055b" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.Extensions.Primitives</name>
+          <display>Microsoft.Extensions.Primitives (10.0.9)</display>
           <isAbstract>false</isAbstract>
           <value>10.0.9</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>a92b83a5-d2e8-4c6b-bfac-9e0e27df5e53</parentFolderId>
+          <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+          <packageName>Intent.Infrastructure.DependencyInjection</packageName>
           <stereotypes />
           <metadata />
           <childElements />
@@ -123,10 +143,14 @@
     </childElement>
     <childElement id="01e10b11-8311-4463-89e1-4b600b238812" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>10.0.9</name>
+      <display>10.0.9 ( &gt;= .NETCoreApp,Version=v10.0 )</display>
       <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>bd8b6ec1-bfdb-45d5-86e0-cf8465095358</parentFolderId>
+      <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+      <packageName>Intent.Infrastructure.DependencyInjection</packageName>
       <stereotypes>
         <stereotype stereotypeDefinitionId="7af88c37-ce54-49fc-b577-bde869c23462" name="Package Version Settings">
           <addedByDefault>false</addedByDefault>
@@ -142,11 +166,14 @@
       <childElements>
         <childElement id="f4e5bf00-03ff-401c-b52e-259ca89adf10" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.Extensions.Primitives</name>
+          <display>Microsoft.Extensions.Primitives (10.0.9)</display>
           <isAbstract>false</isAbstract>
           <value>10.0.9</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>01e10b11-8311-4463-89e1-4b600b238812</parentFolderId>
+          <packageId>652850d7-ae15-457c-9c5d-d36266780022</packageId>
+          <packageName>Intent.Infrastructure.DependencyInjection</packageName>
           <stereotypes />
           <metadata />
           <childElements />

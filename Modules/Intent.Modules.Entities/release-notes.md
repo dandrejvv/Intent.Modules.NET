@@ -1,3 +1,7 @@
+### Version 5.3.4
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 5.3.3
 
 - Fixed: The Domain Entity State template now falls back to the behaviour template's role when resolving a generalization parent that only registered a behaviour-role template (e.g. a stub for a referenced-package base class), and raises a clear error naming the class when neither role resolves, instead of a raw dependency-resolution exception.

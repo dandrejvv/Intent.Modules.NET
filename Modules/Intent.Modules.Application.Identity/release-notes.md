@@ -1,3 +1,7 @@
+### Version 3.6.4
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 3.6.3
 
 - Improvement: Ability to disable `Authentication` in the application's HTTP pipeline, through the new `Enable Authentication` setting which is enabled by default and found under ASP.NET Core Settings.

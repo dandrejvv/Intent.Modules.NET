@@ -1,3 +1,7 @@
+### Version 1.1.15
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 1.1.14
 
 - Fixed: The versioning Swagger configuration is now applied to each ASP.NET Core project's Swashbuckle configuration, instead of failing the Software Factory when an application has more than one.

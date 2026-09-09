@@ -112,6 +112,8 @@ element.addStereotype(schedulingStereoTypeId);</script>
       <diagramSettings>
         <addNewElementsTo>Package</addNewElementsTo>
         <contextMenuOptions />
+        <creationOptions />
+        <scriptOptions />
         <elementVisualSettings>
           <visualSettings type="Hangfire Job" typeId="995f1902-4efb-42ba-b089-a5e856c48943">
             <size width="${w}" height="${h}" />

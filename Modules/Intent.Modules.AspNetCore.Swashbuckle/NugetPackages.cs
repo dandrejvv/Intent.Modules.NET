@@ -19,10 +19,10 @@ namespace Intent.Modules.AspNetCore.Swashbuckle
                 (framework) => (framework.Major, framework.Minor) switch
                     {
                         ( >= 10, >= 0) => new PackageVersion("10.2.3")
+                            .WithNugetDependency("Microsoft.Extensions.ApiDescription.Server", "10.0.0")
                             .WithNugetDependency("Swashbuckle.AspNetCore.Swagger", "10.2.3")
                             .WithNugetDependency("Swashbuckle.AspNetCore.SwaggerGen", "10.2.3")
-                            .WithNugetDependency("Swashbuckle.AspNetCore.SwaggerUI", "10.2.3")
-                            .WithNugetDependency("Microsoft.Extensions.ApiDescription.Server", "10.0.0"),
+                            .WithNugetDependency("Swashbuckle.AspNetCore.SwaggerUI", "10.2.3"),
                         ( >= 9, >= 0) => new PackageVersion("10.2.3")
                             .WithNugetDependency("Microsoft.Extensions.ApiDescription.Server", "9.0.0")
                             .WithNugetDependency("Swashbuckle.AspNetCore.Swagger", "10.2.3")

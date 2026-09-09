@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.AspNetCore.Swashbuckle</id>
-  <version>6.0.4</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>6.0.5-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Provides Swagger support for using the Swashbuckle library for ASP.NET Core.</summary>
   <description>Provides Swagger support for using the Swashbuckle library for ASP.NET Core.</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
       </config>
       <role>Distribution.HideRouteParametersFromBodyOperationFilter</role>
       <location>Filters</location>
+      <severity>low</severity>
+      <classifications>App Composition</classifications>
     </template>
     <template id="Intent.AspNetCore.Swashbuckle.SwashbuckleConfiguration" externalReference="f9817e5f-293b-47bb-895e-22d387b7c6f0">
       <config>
@@ -26,6 +28,8 @@
       </config>
       <role>Distribution.SwashbuckleConfiguration</role>
       <location>Configuration</location>
+      <severity>low</severity>
+      <classifications>App Composition</classifications>
     </template>
     <template id="Intent.AspNetCore.Swashbuckle.TypeSchemaFilter" externalReference="ffdf736a-39d9-4c16-998c-452da9cce2db">
       <config>
@@ -34,6 +38,8 @@
       </config>
       <role>Distribution.TypeSchemaFilter</role>
       <location>Filters</location>
+      <severity>low</severity>
+      <classifications>App Composition</classifications>
     </template>
   </templates>
   <decorators />

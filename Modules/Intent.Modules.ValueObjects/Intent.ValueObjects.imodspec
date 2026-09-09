@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.ValueObjects</id>
-  <version>4.2.8</version>
-  <supportedClientVersions>[4.4.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>4.2.9-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>A simple Value Object implementation in C# based on the Microsoft suggested pattern.</summary>
   <description>A simple Value Object implementation in C# based on the Microsoft suggested pattern.</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
       </config>
       <role>Domain.ValueObject</role>
       <location></location>
+      <severity>medium</severity>
+      <classifications>Business Logic</classifications>
     </template>
     <template id="Intent.ValueObjects.ValueObjectBase" externalReference="c2d52433-731a-4ae3-b698-b2adfd0ea4df">
       <config>

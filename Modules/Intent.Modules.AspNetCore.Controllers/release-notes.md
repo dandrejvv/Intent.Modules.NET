@@ -1,3 +1,7 @@
+### Version 7.1.15
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 7.1.14
 
 - Fixed: `BinaryContentFilter` no longer fails the Software Factory when an application has multiple ASP.NET Core projects.

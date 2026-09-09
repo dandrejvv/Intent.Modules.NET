@@ -1,3 +1,7 @@
+### Version 5.1.6
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 5.1.5
 
 - Fixed: Mapping error when service parameter is a DTO with no direct mappings (only nested fields).

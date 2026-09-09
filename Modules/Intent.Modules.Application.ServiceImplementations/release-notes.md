@@ -1,3 +1,7 @@
+### Version 4.7.5
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.7.4
 
 - Improvement: Reworded the `application-service-implementation` AI skill description to an imperative "MUST load before..." trigger naming the file the agent is about to edit, so coding agents reliably load it instead of skipping it.

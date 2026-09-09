@@ -1,3 +1,7 @@
+### Version 4.7.2
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.7.1
 
 - Improvement: Updated NuGet package versions.

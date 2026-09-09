@@ -1,3 +1,7 @@
+### Version 4.8.6
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.8.5
 
 - Improvement: Repository operations that invoke a Stored Procedure whose return type doesn't match the operation's declared return type now raise a clear error naming the operation and stored procedure when no Stored Procedure Result mapping exists to bridge them.

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <managedFiles version="1" applicationId="3cbc980e-da30-405c-a8bd-f0043279721f">
-  <file path="../.agents/instructions/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
+  <file path="../.claude/rules/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
+  <file path="../.opencode/instructions/csharp-guidelines.md" templateId="Intent.Modules.Common.CSharp.Templates.StaticContentTemplateRegistrations.AIInstructionsStaticContentTemplateRegistration" />
   <file path="../Intent.Modules.NET.sln" templateId="Intent.VisualStudio.Projects.VisualStudioSolution" />
   <file path="FactoryExtentions/AITasksFactoryExtension.cs" deviationsHash="24C842E33D6DD654BA32BBE4E84C01525A1AC73E738F8991C352115860E4F60B" templateId="Intent.ModuleBuilder.Templates.FactoryExtension" />
   <file path="Intent.Application.MediatR.imodspec" templateId="Intent.ModuleBuilder.IModSpecFile" />
-  <file path="Intent.Modules.Application.MediatR.csproj" deviationsHash="AFB9832F31E1863CF433A02A84A87896154C90D36F81A5A471A3868865BE140C" templateId="Intent.VisualStudio.Projects.CSharpProject" />
+  <file path="Intent.Modules.Application.MediatR.csproj" templateId="Intent.VisualStudio.Projects.CSharpProject" />
   <file path="Migrations/Migration_04_03_00_Pre_00.cs" deviationsHash="E1DD3C75EF5F4500997A5EFF8F35EA819F81488D8C5A5A9B2282428EA968DB35" templateId="Intent.ModuleBuilder.Templates.Migrations.OnVersionMigration" />
   <file path="Settings/ModuleSettingsExtensions.cs" templateId="Intent.ModuleBuilder.Templates.Settings.ModuleSettingsExtensions" />
   <file path="Templates/CommandHandler/CommandHandlerDecorator.cs" deviationsHash="294041696F45EE480AE787B5A9D5DF85CE1E61EF04BB9C43DBC99127FB263923" templateId="Intent.ModuleBuilder.Templates.TemplateDecoratorContract" />
@@ -26,5 +27,6 @@
   <file path="Templates/QueryModels/QueryModelsTemplatePartial.cs" deviationsHash="A03CD553B9ADED13FD999C71AF3BA9E60CF02C83C406047F25334CFDFAA9C8ED" templateId="Intent.ModuleBuilder.CSharp.Templates.CSharpTemplatePartial" />
   <file path="Templates/QueryModels/QueryModelsTemplateRegistration.cs" deviationsHash="95F024BBB9B93CC06F17BC55CA2B849AF9EDD9596525892D00915BACFA8C917B" templateId="Intent.ModuleBuilder.TemplateRegistration.FilePerModel" />
   <file path="Templates/TemplateExtensions.cs" deviationsHash="1CBB0964D6E9CE11FA1994F6DE7622CE13035EDA4C1CC3398CF5AACF20C849E9" templateId="Intent.ModuleBuilder.Templates.TemplateExtensions" />
+  <file path="release-notes.md" templateId="Intent.ModuleBuilder.Templates.ReleaseNotes" />
   <file path="resources/documentation.json" templateId="Intent.ModuleBuilder.Templates.DocumentationTemplate" />
 </managedFiles>

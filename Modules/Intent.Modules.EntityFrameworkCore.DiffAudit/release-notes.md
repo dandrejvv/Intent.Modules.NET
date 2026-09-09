@@ -1,3 +1,7 @@
+### Version 1.0.5
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 1.0.4
 
 - Fixed: Minimum client version.

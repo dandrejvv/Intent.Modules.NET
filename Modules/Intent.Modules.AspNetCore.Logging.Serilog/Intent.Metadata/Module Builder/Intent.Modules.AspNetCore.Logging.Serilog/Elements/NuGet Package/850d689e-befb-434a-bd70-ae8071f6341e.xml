@@ -26,8 +26,9 @@
   <childElements>
     <childElement id="41b4459a-c76b-4740-9a01-19b280b1a3bd" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>5.0.1</name>
-      <display>4.0.0 ( &gt;= .NETCoreApp,Version=v6.0 )</display>
+      <display>5.0.1 ( &gt;= .NETCoreApp,Version=v6.0 )</display>
       <isAbstract>false</isAbstract>
+      <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
       <isMapped>false</isMapped>
       <parentFolderId>850d689e-befb-434a-bd70-ae8071f6341e</parentFolderId>
@@ -48,22 +49,28 @@
       <childElements>
         <childElement id="7f6c6139-a6f7-4362-af18-d1f8af6a2922" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.ApplicationInsights</name>
+          <display>Microsoft.ApplicationInsights (2.23.0)</display>
           <isAbstract>false</isAbstract>
           <value>2.23.0</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>41b4459a-c76b-4740-9a01-19b280b1a3bd</parentFolderId>
+          <packageId>8b0c1ac1-fec4-498c-8f04-76519c498003</packageId>
+          <packageName>Intent.Modules.AspNetCore.Logging.Serilog</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
         <childElement id="c5419034-5c66-4101-8987-616f1399474e" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Serilog</name>
+          <display>Serilog (4.3.1)</display>
           <isAbstract>false</isAbstract>
           <value>4.3.1</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>41b4459a-c76b-4740-9a01-19b280b1a3bd</parentFolderId>
+          <packageId>8b0c1ac1-fec4-498c-8f04-76519c498003</packageId>
+          <packageName>Intent.Modules.AspNetCore.Logging.Serilog</packageName>
           <stereotypes />
           <metadata />
           <childElements />
@@ -72,7 +79,7 @@
     </childElement>
     <childElement id="910550b8-2672-4448-938b-c2a35a076202" type="Package Version" typeId="231f8cf8-517b-4801-9682-991d22f4e662">
       <name>5.0.1</name>
-      <display>4.0.0 ( &gt;= .NETStandard,Version=v2.0 )</display>
+      <display>5.0.1 ( &gt;= .NETStandard,Version=v2.0 )</display>
       <isAbstract>false</isAbstract>
       <sort-children>by-type-then-by-name</sort-children>
       <genericTypes />
@@ -95,22 +102,28 @@
       <childElements>
         <childElement id="a420d77a-394a-4aef-a6c7-1abeda1f605b" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Microsoft.ApplicationInsights</name>
+          <display>Microsoft.ApplicationInsights (2.23.0)</display>
           <isAbstract>false</isAbstract>
           <value>2.23.0</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>910550b8-2672-4448-938b-c2a35a076202</parentFolderId>
+          <packageId>8b0c1ac1-fec4-498c-8f04-76519c498003</packageId>
+          <packageName>Intent.Modules.AspNetCore.Logging.Serilog</packageName>
           <stereotypes />
           <metadata />
           <childElements />
         </childElement>
         <childElement id="392e0d57-427f-42e2-bb22-bfa96270a649" type="NuGet Dependency" typeId="3097322a-a058-4058-beed-4fcd6272f61d">
           <name>Serilog</name>
+          <display>Serilog (4.3.1)</display>
           <isAbstract>false</isAbstract>
           <value>4.3.1</value>
           <genericTypes />
           <isMapped>false</isMapped>
           <parentFolderId>910550b8-2672-4448-938b-c2a35a076202</parentFolderId>
+          <packageId>8b0c1ac1-fec4-498c-8f04-76519c498003</packageId>
+          <packageName>Intent.Modules.AspNetCore.Logging.Serilog</packageName>
           <stereotypes />
           <metadata />
           <childElements />

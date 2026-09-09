@@ -1,3 +1,7 @@
+### Version 5.2.2
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 5.2.1
 
 - Improvement: Improved AI guidance.

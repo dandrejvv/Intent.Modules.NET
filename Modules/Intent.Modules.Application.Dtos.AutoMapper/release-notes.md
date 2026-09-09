@@ -1,3 +1,7 @@
+### Version 4.0.23
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.0.22
 
 - Fixed: Free-form mapping expressions missing `src.` prefix, causing generated mapping lambdas to be invalid.

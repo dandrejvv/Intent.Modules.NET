@@ -1,3 +1,7 @@
+### Version 6.1.6
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 6.1.5
 
 - Improvement: Ability to disable `Authorization` in the application's HTTP pipeline, through the new `Enable Authorization` setting which is enabled by default.

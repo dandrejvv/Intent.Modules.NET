@@ -38,18 +38,6 @@
       <deviationsHash>FA9C932719CE6188351A6A43C2E372E48B10A5EA06D80F62A2B4F3CC5D9FFA5C</deviationsHash>
     </file>
     <file>
-      <correlationId>Intent.VisualStudio.Projects.CSharpProject#3e5e932f-a74c-4c96-ad5a-e6eb4356f9a4</correlationId>
-      <path>Intent.Modules.EntityFrameworkCore.Repositories.csproj</path>
-      <count>1</count>
-      <updatedByAccountName>joel.turner@intentarchitect.com</updatedByAccountName>
-      <updatedByDisplayName>Joel Turner</updatedByDisplayName>
-      <updatedAt>2026-08-24T13:38:50.2935915Z</updatedAt>
-      <approvedByAccountName>joel.turner@intentarchitect.com</approvedByAccountName>
-      <approvedByDisplayName>Joel Turner</approvedByDisplayName>
-      <approvedAt>2026-08-24T13:59:28.549234Z</approvedAt>
-      <deviationsHash>7A55B486A67109E32A6DD0F9B4B2BE59A4894489620332FF53670267178BBF3C</deviationsHash>
-    </file>
-    <file>
       <correlationId>Intent.ModuleBuilder.ProjectItemTemplate.Partial#4594c780-e992-42d4-b448-82c6343f5fc2</correlationId>
       <path>Templates/EFRepositorySkill/EFRepositorySkillTemplatePartial.cs</path>
       <count>1</count>

@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.Application.MediatR.Behaviours</id>
-  <version>4.7.1</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>4.7.2-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Additional MediatR middleware pipeline behaviours</summary>
   <description>Additional MediatR middleware pipeline behaviours</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>high</severity>
+      <classifications>Security;Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.LoggingBehaviour" externalReference="68ec10f6-35bb-4b18-9845-d5ef91513cff">
       <config>
@@ -26,6 +28,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>low</severity>
+      <classifications>Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.MessageBusPublishBehaviour" externalReference="328d6820-461a-4a00-9eed-b784842d91e0">
       <config>
@@ -34,6 +38,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>medium</severity>
+      <classifications>Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.PerformanceBehaviour" externalReference="01accc66-206d-450c-8c23-b671dd4a69d4">
       <config>
@@ -42,6 +48,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>low</severity>
+      <classifications>Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.UnhandledExceptionBehaviour" externalReference="d94dff30-bffc-4c3a-b535-87bb6c3046b7">
       <config>
@@ -50,6 +58,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>low</severity>
+      <classifications>Request Pipeline</classifications>
     </template>
     <template id="Intent.Application.MediatR.Behaviours.UnitOfWorkBehaviour" externalReference="25c03256-0042-46df-9e3d-d9a8b71ef499">
       <config>
@@ -58,6 +68,8 @@
       </config>
       <role>Application.Common</role>
       <location>Common/Behaviours</location>
+      <severity>high</severity>
+      <classifications>Request Pipeline;Persistence Schema</classifications>
     </template>
   </templates>
   <interoperability>

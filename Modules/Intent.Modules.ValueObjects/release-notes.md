@@ -1,3 +1,7 @@
+### Version 4.2.9
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.2.8
 
 - Fixed: Minimum client version.

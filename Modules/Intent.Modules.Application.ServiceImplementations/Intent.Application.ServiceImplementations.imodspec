@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.Application.ServiceImplementations</id>
-  <version>4.7.4</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>4.7.5-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Provides a standard service implementation pattern for Application Contracts</summary>
   <description>Provides a standard service implementation pattern for Application Contracts</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
         <add key="Namespace" description="Namespace" />
         <add key="ClassName" description="Class name" />
       </config>
+      <severity>medium</severity>
+      <classifications>Business Logic</classifications>
     </template>
     <template id="Intent.Application.ServiceImplementations.ServiceImplementationSkillTemplate" externalReference="809b95af-f0c0-4779-b754-d89d221a960d">
       <role>AI.Context.Skills.Handler</role>

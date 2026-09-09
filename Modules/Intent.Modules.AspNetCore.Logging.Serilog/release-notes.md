@@ -1,3 +1,7 @@
+### Version 5.3.10
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 5.3.9
 
 - Fixed: Serilog configuration no longer fails the Software Factory when an application has multiple ASP.NET Core projects. Each project's `Program` file is now configured independently, so its own hosting model is honoured.

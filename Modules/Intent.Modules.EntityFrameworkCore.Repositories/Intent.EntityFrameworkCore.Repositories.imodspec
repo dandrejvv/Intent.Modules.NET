@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.EntityFrameworkCore.Repositories</id>
-  <version>4.8.5</version>
-  <supportedClientVersions>[5.0.0-a,6.0.0-a)</supportedClientVersions>
+  <version>4.8.6-pre.0</version>
+  <supportedClientVersions>[5.1.0-a,6.0.0-a)</supportedClientVersions>
   <summary>Generates Repositories for Domain Entities</summary>
   <description>Generates Repositories for Domain Entities</description>
   <authors>Intent Architect</authors>
@@ -19,6 +19,8 @@
       </config>
       <role>Infrastructure.Data.DataContractEntityTypeConfiguration</role>
       <location>Persistence/Configurations</location>
+      <severity>medium</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.Repositories.DataContractExtensionMethods" externalReference="d500e538-e02c-4c72-844a-887ed913529a">
       <config>
@@ -27,6 +29,8 @@
       </config>
       <role>Repository.Implementation.DataContractExtensions</role>
       <location>Repositories/ExtensionMethods</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.Repositories.EFRepositoryInterface" externalReference="2901269a-8cfa-45c7-827f-e8d6516635af">
       <config>
@@ -35,6 +39,8 @@
       </config>
       <role>Repository.Interface.Entity</role>
       <location>Repositories</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.Repositories.EFRepositorySkillTemplate" externalReference="4594c780-e992-42d4-b448-82c6343f5fc2">
       <role>AI.Context.Skills.EFRepository</role>
@@ -47,10 +53,14 @@
         <add key="Entity Template Id" description="The template Id for the template producing the Domain Entities" default="Intent.Entities.DomainEntityState" />
         <add key="Entity Interface Template Id" description="The template Id for the template producing the Domain Entity Interfaces" default="Intent.Entities.DomainEntityInterface" />
       </config>
+      <severity>medium</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.Repositories.RepositoryBase" externalReference="2a48f0f3-d711-4fb4-8e94-b4c0696ba706">
       <role>Repository.Implementation</role>
       <location>Repositories</location>
+      <severity>high</severity>
+      <classifications>Data Access</classifications>
     </template>
   </templates>
   <decorators>

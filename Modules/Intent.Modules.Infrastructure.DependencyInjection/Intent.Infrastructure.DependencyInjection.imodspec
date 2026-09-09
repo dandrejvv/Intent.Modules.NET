@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.Infrastructure.DependencyInjection</id>
-  <version>4.1.18</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>4.1.19-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Generates Infrastructure-level Service registration configuration</summary>
   <description>Generates Infrastructure-level Service registration configuration</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
       </config>
       <role>Infrastructure.DependencyInjection</role>
       <location></location>
+      <severity>high</severity>
+      <classifications>App Composition</classifications>
     </template>
   </templates>
   <decorators />

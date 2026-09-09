@@ -1,3 +1,7 @@
+### Version 2.0.21
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 2.0.20
 - New Feature: Added support for `SQLite` when using `Intent.EntityFrameworkCore`. The generated database fixture runs SQLite in-process against an in-memory database, so no container runtime (e.g. Docker) is required to run the tests.
 - New Feature: Added a `integration test` skill to guide AI Agents around implementations.

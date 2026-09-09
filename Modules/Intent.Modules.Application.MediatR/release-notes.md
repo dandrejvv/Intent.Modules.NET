@@ -1,3 +1,7 @@
+### Version 4.7.5
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.7.4
 
 - Improvement: Reworded the `mediatr-command-handler` and `mediatr-query-handler` AI skill descriptions to an imperative "MUST load before..." trigger naming the handler file the agent is about to edit, so coding agents reliably load them instead of skipping them.

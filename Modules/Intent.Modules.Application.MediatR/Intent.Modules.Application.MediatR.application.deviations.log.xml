@@ -11,18 +11,6 @@
       <deviationsHash>24C842E33D6DD654BA32BBE4E84C01525A1AC73E738F8991C352115860E4F60B</deviationsHash>
     </file>
     <file>
-      <correlationId>Intent.VisualStudio.Projects.CSharpProject#221043f0-7703-4326-909c-6689fd961f8a</correlationId>
-      <path>Intent.Modules.Application.MediatR.csproj</path>
-      <count>1</count>
-      <updatedByAccountName>joel.turner@intentarchitect.com</updatedByAccountName>
-      <updatedByDisplayName>Joel Turner</updatedByDisplayName>
-      <updatedAt>2026-08-24T13:38:40.1137441Z</updatedAt>
-      <approvedByAccountName>joel.turner@intentarchitect.com</approvedByAccountName>
-      <approvedByDisplayName>Joel Turner</approvedByDisplayName>
-      <approvedAt>2026-08-24T13:59:28.6000062Z</approvedAt>
-      <deviationsHash>AFB9832F31E1863CF433A02A84A87896154C90D36F81A5A471A3868865BE140C</deviationsHash>
-    </file>
-    <file>
       <correlationId>Intent.ModuleBuilder.Templates.Migrations.OnVersionMigration#060a55b1-d06c-477d-8a7c-aff7f40db488</correlationId>
       <path>Migrations/Migration_04_03_00_Pre_00.cs</path>
       <count>4</count>

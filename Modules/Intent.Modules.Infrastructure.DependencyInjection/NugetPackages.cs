@@ -35,17 +35,17 @@ namespace Intent.Modules.Infrastructure.DependencyInjection
                 (framework) => (framework.Major, framework.Minor) switch
                     {
                         ( >= 10, >= 0) => new PackageVersion("10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9"),
+                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
+                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),
                         ( >= 9, >= 0) => new PackageVersion("10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9"),
+                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
+                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),
                         ( >= 8, >= 0) => new PackageVersion("10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9"),
+                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
+                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),
                         ( >= 2, >= 0) => new PackageVersion("10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9"),
+                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
+                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),
                         _ => throw new Exception($"Unsupported Framework `{framework.Major}` for NuGet package '{MicrosoftExtensionsConfigurationBinderPackageName}'"),
                     }
                 );

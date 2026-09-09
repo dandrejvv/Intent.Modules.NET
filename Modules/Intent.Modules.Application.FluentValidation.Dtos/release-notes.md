@@ -1,3 +1,7 @@
+### Version 3.13.4
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 3.13.3
 
 - Fixed: Generated validators now reference the correct `fluent-validation-custom-validation` AI skill in their AI context (previously referenced a non-existent `custom-fluent-validation` skill).

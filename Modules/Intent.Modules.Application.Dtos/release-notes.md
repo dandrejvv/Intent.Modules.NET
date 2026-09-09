@@ -1,3 +1,7 @@
+### Version 4.6.1
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.6.0
 
 - Improvement: Format DTO default values to valid C# code for a given type.

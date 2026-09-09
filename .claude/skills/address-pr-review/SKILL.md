@@ -1,5 +1,6 @@
 ---
 description: Work through a pull request's unresolved review comments — fix what should be fixed, commit each one, and stage a reply per thread into the pending review. Use when asked to address, action or respond to review feedback on a pull request.
+short-description: Work through a pull request's unresolved review comments — fix, commit, and reply per thread.
 argument-hint: The pull request — a number, a repository path, and the head SHA the worktree was cut at
 requiredTools:
   - get_pull_request_review_threads

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.EntityFrameworkCore</id>
-  <version>5.2.0-pre.2</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>5.2.0-pre.3</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Provides the Entity Framework Core, Object Relational Mapper framework</summary>
   <description>Provides the Entity Framework Core, Object Relational Mapper framework</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
         <add key="Entity Template Id" description="The template Id for the template producing the Domain Entities" default="Intent.Entities.DomainEntityState" />
         <add key="Use Lazy-Loading Proxies" description="Whether EF should be configured to use lazy-loading proxies" type="boolean" default="true" />
       </config>
+      <severity>high</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.DbContextInterface" externalReference="b74d885c-a582-4101-9d92-c4edb7e67844">
       <config>
@@ -26,6 +28,8 @@
       </config>
       <role>Application</role>
       <location>Common/Interfaces</location>
+      <severity>medium</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.DbInitializationExtensions" externalReference="b4d54e09-830a-449a-850c-ecac88577f06">
       <config>
@@ -34,6 +38,8 @@
       </config>
       <role>Startup.DbInitializationExtensions,Azure.Api.DbInitializationService</role>
       <location>StartupJobs</location>
+      <severity>high</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.DbMigrationsReadMe" enabled="true" externalReference="8dca43ad-a912-4d76-aca9-4eaf77d6127a">
       <role>Infrastructure.Data</role>
@@ -46,6 +52,8 @@
       </config>
       <role>Infrastructure.Data.EntityTypeConfiguration</role>
       <location>Persistence/Configurations</location>
+      <severity>high</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.PagedList" externalReference="09506297-8b03-44b4-9f6b-09c0cdeaa5ef">
       <config>
@@ -54,6 +62,8 @@
       </config>
       <role>Application.Common.PagedList</role>
       <location>Common/Pagination</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.EntityFrameworkCore.UtcDateTimeOffsetConverter" externalReference="2178a1d0-2b06-4741-bed9-7fbbcfb1649f">
       <config>
@@ -62,6 +72,8 @@
       </config>
       <role>Infrastructure.Data.EntityTypeConfiguration.Converters</role>
       <location>Persistence/Configurations/Converters</location>
+      <severity>high</severity>
+      <classifications>Persistence Schema</classifications>
     </template>
   </templates>
   <decorators />

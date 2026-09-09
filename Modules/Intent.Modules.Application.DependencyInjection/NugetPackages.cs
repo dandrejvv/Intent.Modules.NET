@@ -35,8 +35,8 @@ namespace Intent.Modules.Application.DependencyInjection
                 (framework) => (framework.Major, framework.Minor) switch
                     {
                         ( >= 10, >= 0) => new PackageVersion("10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9")
-                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9"),
+                            .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
+                            .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),
                         ( >= 9, >= 0) => new PackageVersion("10.0.9")
                             .WithNugetDependency("Microsoft.Extensions.Configuration", "10.0.9")
                             .WithNugetDependency("Microsoft.Extensions.Configuration.Abstractions", "10.0.9"),

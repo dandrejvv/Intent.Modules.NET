@@ -1,3 +1,7 @@
+### Version 4.12.3
+
+- Improvement: Added default Template Classification and Priorities.
+
 ### Version 4.12.2
 
 - Improvement: Put `ConfigureValidationRules` method in `Merge` mode to reduce friction with AI changes.

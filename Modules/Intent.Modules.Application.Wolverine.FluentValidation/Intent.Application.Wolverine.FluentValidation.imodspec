@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.Application.Wolverine.FluentValidation</id>
-  <version>1.0.1</version>
-  <supportedClientVersions>[5.0.0-a,6.0.0)</supportedClientVersions>
+  <version>1.0.2-pre.0</version>
+  <supportedClientVersions>[5.1.0-a,6.0.0)</supportedClientVersions>
   <summary>Provides FluentValidation support for Wolverine command and query handlers.</summary>
   <description>Provides FluentValidation support for Wolverine command and query handlers.</description>
   <authors>Intent Architect</authors>
@@ -17,6 +17,8 @@
       </config>
       <role>Application.Common.BypassValidationInterface</role>
       <location>Common/Interfaces</location>
+      <severity>medium</severity>
+      <classifications>Validation</classifications>
     </template>
     <template id="Intent.Application.Wolverine.FluentValidation.CommandValidator" externalReference="f837be03-784a-485f-8831-14be8f167812">
       <config>
@@ -25,6 +27,8 @@
       </config>
       <role>Application.Validation.Command</role>
       <location></location>
+      <severity>medium</severity>
+      <classifications>Validation</classifications>
     </template>
     <template id="Intent.Application.Wolverine.FluentValidation.QueryValidator" externalReference="e697c72c-c021-4729-a9c9-85e25447b111">
       <config>
@@ -33,6 +37,8 @@
       </config>
       <role>Application.Validation.Query</role>
       <location></location>
+      <severity>medium</severity>
+      <classifications>Validation</classifications>
     </template>
   </templates>
   <decorators></decorators>

@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package>
   <id>Intent.Entities.Repositories.Api</id>
-  <version>5.2.1</version>
-  <supportedClientVersions>[5.0.0-a, 6.0.0-a)</supportedClientVersions>
+  <version>5.2.2-pre.0</version>
+  <supportedClientVersions>[5.1.0-a, 6.0.0-a)</supportedClientVersions>
   <summary>Generates interface equivalents for Domain Entity Repositories for the Domain</summary>
   <description>Generates interface equivalents for Domain Entity Repositories for the Domain</description>
   <authors>Intent Architect</authors>
@@ -18,6 +18,8 @@
       </config>
       <role>Repository.Interface.CursorPagedList</role>
       <location>Repositories</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.CustomRepository" externalReference="bb324e03-e1ec-4b43-ae86-ac34754d07fe">
       <config>
@@ -26,6 +28,8 @@
       </config>
       <role>Repository.Implementation</role>
       <location>Repositories</location>
+      <severity>medium</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.CustomRepositoryInterface" externalReference="9ba9dcc5-196e-428a-b918-e8f51b7c02b5">
       <config>
@@ -34,18 +38,26 @@
       </config>
       <role>Repository.Interface.Entity</role>
       <location>Repositories</location>
+      <severity>medium</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.EntityRepositoryInterface" externalReference="0adbd5e8-63ad-4b34-b8cf-9b3febeedd99">
       <role>Repository.Interface.Entity</role>
       <location>Repositories</location>
+      <severity>medium</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.PagedListInterface" externalReference="97d051af-0bef-4bdd-ac68-ea8d27c6d5fb">
       <role>Repository.Interface.PagedList</role>
       <location>Repositories</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.RepositoryInterface" externalReference="0ca794e5-a8e2-43c8-a67b-3e4ab606719a">
       <role>Repository.Interface.Contract</role>
       <location>Repositories</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
     <template id="Intent.Entities.Repositories.Api.UnitOfWorkInterface" externalReference="b7874537-f6f7-431c-91fc-e6beb0a58825">
       <config>
@@ -54,6 +66,8 @@
       </config>
       <role>Domain.UnitOfWork</role>
       <location>Common/Interfaces</location>
+      <severity>low</severity>
+      <classifications>Data Access</classifications>
     </template>
   </templates>
   <decorators></decorators>
